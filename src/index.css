@@ -11,3 +11,66 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* body{
+  font-family:   sans-serif;
+} */
+.responsive-logo {
+  width: 100%;
+  max-width: 150px;
+  height: auto;
+}
+.card-img{
+  /* width: 100%; */
+  /* max-width: 150px; */
+  width:100px;
+  height: auto;
+}
+
+.outer{
+  padding:5px 20vw;
+  /* background-color: gray; */
+}
+/* #carouselExampleIndicators{
+  width: 50vw;
+  height:auto;
+} */
+
+.header{
+  box-shadow:
+0 2.8px 2.2px rgba(0, 0, 0, 0.02),
+0 6.7px 5.3px rgba(0, 0, 0, 0.028),
+0 12.5px 10px rgba(0, 0, 0, 0.035),
+0 22.3px 17.9px rgba(0, 0, 0, 0.042),
+0 41.8px 33.4px rgba(0, 0, 0, 0.05),
+0 100px 80px rgba(0, 0, 0, 0.07);
+}
+.card{
+  margin: 20px 0;
+  box-shadow:
+0 3.9px 21.3px -73px rgba(0, 0, 0, 0.231),
+0 10.9px 59px -73px rgba(0, 0, 0, 0.304),
+0 26.2px 142px -73px rgba(0, 0, 0, 0.37),
+0 87px 471px -73px rgba(0, 0, 0, 0.54)
+;
+
+}
+
+.underdev{
+border-radius: 25px;
+padding: 10px;
+/* background-color: white; */
+/* border: 5px solid; */
+text-align: center;
+box-shadow:
+0 3px 16.2px -73px rgba(0, 0, 0, 0.28),
+0 7.6px 40.9px -73px rgba(0, 0, 0, 0.371),
+0 15.4px 83.5px -73px rgba(0, 0, 0, 0.438),
+0 31.8px 171.9px -73px rgba(0, 0, 0, 0.516),
+0 87px 471px -73px rgba(0, 0, 0, 0.72)
+;
+background-image: url("https://media.giphy.com/media/14uQ3cOFteDaU/source.gif");
+/* background-image: url("./images/me1.jpg"); */
+background-size: cover;
+height:70vh;
+}
