@@ -9,7 +9,8 @@
 /coverage
 
 # production
-/build
+# /build 
+# I want to keep the build file because I want to host through github
 
 # misc
 .DS_Store
