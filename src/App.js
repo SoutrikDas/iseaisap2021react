@@ -3,7 +3,7 @@ import './App.css';
 import Footer from './components/Footer';
 
 
-import{BrowserRouter as Router,Route,Switch} from 'react-router-dom'
+import{HashRouter as Router,Route,Switch} from 'react-router-dom'
 import Navbar from './components/Navbar';
 import Ddaward from './authors/Ddaward';
 import Tutorial from './authors/Tutorial';
