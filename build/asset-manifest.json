@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/routerdomrough/static/css/main.a1981780.chunk.css",
+    "main.js": "/routerdomrough/static/js/main.eace0327.chunk.js",
+    "main.js.map": "/routerdomrough/static/js/main.eace0327.chunk.js.map",
+    "runtime-main.js": "/routerdomrough/static/js/runtime-main.b6544915.js",
+    "runtime-main.js.map": "/routerdomrough/static/js/runtime-main.b6544915.js.map",
+    "static/css/2.dee68566.chunk.css": "/routerdomrough/static/css/2.dee68566.chunk.css",
+    "static/js/2.632295e4.chunk.js": "/routerdomrough/static/js/2.632295e4.chunk.js",
+    "static/js/2.632295e4.chunk.js.map": "/routerdomrough/static/js/2.632295e4.chunk.js.map",
+    "index.html": "/routerdomrough/index.html",
+    "static/css/2.dee68566.chunk.css.map": "/routerdomrough/static/css/2.dee68566.chunk.css.map",
+    "static/css/main.a1981780.chunk.css.map": "/routerdomrough/static/css/main.a1981780.chunk.css.map",
+    "static/js/2.632295e4.chunk.js.LICENSE.txt": "/routerdomrough/static/js/2.632295e4.chunk.js.LICENSE.txt",
+    "static/media/bootstrap-icons.css": "/routerdomrough/static/media/bootstrap-icons.dfd0ea12.woff2",
+    "static/media/iitismlogo.4e4b1912.png": "/routerdomrough/static/media/iitismlogo.4e4b1912.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b6544915.js",
+    "static/css/2.dee68566.chunk.css",
+    "static/js/2.632295e4.chunk.js",
+    "static/css/main.a1981780.chunk.css",
+    "static/js/main.eace0327.chunk.js"
+  ]
+}
