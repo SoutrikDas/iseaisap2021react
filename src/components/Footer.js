@@ -13,10 +13,10 @@ function Footer() {
                             <i className="bi bi-calendar-range-fill" /> Important Dates
                           </h6>
                           <p>
-                            Last date for paper submission:December 02, 2019 (Firm deadline)
+                            Last date for paper submission:July 31, 2021 (Firm deadline)
                             <br />
                             <br />
-                            Last date for tutorial submission:December 02, 2019 (Firm deadline)
+                            <a href="https://easychair.org/conferences/?conf=iseaisap2021">Submit Here</a>
                             <br />
                             <br />
                             (Note: All deadlines are 11:50 PM IST (UTC+5:30)
@@ -45,14 +45,14 @@ function Footer() {
                           <h6 className="text-uppercase fw-bold mb-4">
                             Contact
                           </h6>
-                          <p><i className="bi bi-house-fill" /> Indian Institute of Technology Dhanbad, Jharkhand, India,
-                            826004</p>
                           <p>
                             <i className="bi bi-envelope-fill" />
-                            info@example.com
+                            <a target="_blank" href="mailto:isea-isap2021@iitism.ac.in">isea-isap2021@iitism.ac.in</a>
                           </p>
-                          <p><i className="bi bi-telephone-fill" /> + 01 234 567 88</p>
-                          <p><i className="bi bi-telephone-fill" /> + 01 234 567 89</p>
+                          <p><i className="bi bi-house-fill" /> Indian Institute of Technology Dhanbad, Jharkhand, India,
+                            826004</p>
+                          {/* <p><i className="bi bi-telephone-fill" /> + 01 234 567 88</p>
+                          <p><i className="bi bi-telephone-fill" /> + 01 234 567 89</p> */}
                         </div>
 
                       </div>
