@@ -13,13 +13,19 @@ function Footer() {
                             <i className="bi bi-calendar-range-fill" /> Important Dates
                           </h6>
                           <p>
-                            Last date for paper submission:July 31, 2021 (Firm deadline)
+                            Opening Call for Paper : 15 June, 2021
                             <br />
+                            <mark>Paper Submission Deadline : 15 August, 2021</mark>
                             <br />
                             <a href="https://easychair.org/conferences/?conf=iseaisap2021">Submit Here</a>
                             <br />
+                            Notification of Acceptance : 20 September, 2021
                             <br />
-                            (Note: All deadlines are 11:50 PM IST (UTC+5:30)
+                            Submission of Camera Ready Paper : 30 September, 2021
+                            <br />
+                            Author Registration : 15 October, 2021
+                            <br />
+                            Conference : 27-30 October, 2021
                           </p>
                         </div>
  
