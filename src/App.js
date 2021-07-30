@@ -25,6 +25,7 @@ import Social from './program/Social';
 import Organizing from './committee/Organizing';
 import TechnicalCommittee from './committee/TechnicalCommittee';
 import Header from './components/Header';
+import CustomTimeline from './components/CustomTimeline';
 
 
 
@@ -88,6 +89,9 @@ function App() {
         </Route>
         <Route exact path="/committee/technical">
           <TechnicalCommittee/>
+        </Route>
+        <Route exact path="/timeline">
+          <CustomTimeline/>
         </Route>
 
 

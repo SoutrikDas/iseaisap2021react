@@ -3,6 +3,7 @@ import campus2 from './images/campus2.jfif'
 import campus3 from './images/campus3.jfif'
 
 import { Link } from "react-router-dom";
+import CustomTimeline from './components/CustomTimeline';
 
 const Home = () => {
     return ( 
@@ -37,14 +38,17 @@ const Home = () => {
       </button>
     </div>
 
-          {/* <h1 class="display-4 m-5 ">Important Dates</h1> */}
+            {/* <h1 class="display-4 m-5 ">Important Dates</h1> */}
             {/* <h1 class="display-4 mt-5">Call for Regular Papers</h1> 
             <hr className="mx-5 mb-5"/> */}
 
             
             <Link className="btn-primary btn" to="/authors/regularpapers" >Check Call for Regular Papers</Link>
-            </div>
-        </div> 
+          </div>
+          <div className="m-1 m-md-5 p-1 p-md-5 shadow bg-body rounded">
+            <CustomTimeline/>
+          </div>
+      </div> 
    
      );
 }

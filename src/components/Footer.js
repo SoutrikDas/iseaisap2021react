@@ -70,7 +70,7 @@ function Footer() {
                       © 2021 Copyright: Dept. of CSE - All Right Reserved
                       <br/>
                     </div>
-                    <div className="text-center p-4 text-white bg-dark">Made with 💘  By <a className="link-light " href="https://www.linkedin.com/in/harshit-agarwal-38936a202/" target="_blank">Harshit</a> and <a className="link-light "  href="https://www.linkedin.com/in/soutrik-das-024073164/" target="_blank">Soutrik</a></div>
+                    <div className="text-center p-4 text-white bg-dark">Made with ❤️  By <a className="link-light " href="https://www.linkedin.com/in/harshit-agarwal-38936a202/" target="_blank">Harshit</a> and <a className="link-light "  href="https://www.linkedin.com/in/soutrik-das-024073164/" target="_blank">Soutrik</a></div>
                   </footer>
                 </div>
 
