@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "./static/css/main.882d4eca.chunk.css",
+    "main.js": "./static/js/main.8263708a.chunk.js",
+    "main.js.map": "./static/js/main.8263708a.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.40db40e0.js",
+    "runtime-main.js.map": "./static/js/runtime-main.40db40e0.js.map",
+    "static/css/2.e1e2fe1a.chunk.css": "./static/css/2.e1e2fe1a.chunk.css",
+    "static/js/2.5057de15.chunk.js": "./static/js/2.5057de15.chunk.js",
+    "static/js/2.5057de15.chunk.js.map": "./static/js/2.5057de15.chunk.js.map",
+    "index.html": "./index.html",
+    "static/css/2.e1e2fe1a.chunk.css.map": "./static/css/2.e1e2fe1a.chunk.css.map",
+    "static/css/main.882d4eca.chunk.css.map": "./static/css/main.882d4eca.chunk.css.map",
+    "static/js/2.5057de15.chunk.js.LICENSE.txt": "./static/js/2.5057de15.chunk.js.LICENSE.txt",
+    "static/media/ISEA_logo.9c622e4a.png": "./static/media/ISEA_logo.9c622e4a.png",
+    "static/media/bootstrap-icons.css": "./static/media/bootstrap-icons.dfd0ea12.woff2",
+    "static/media/campus1.6347b82b.jfif": "./static/media/campus1.6347b82b.jfif",
+    "static/media/campus2.8b72b8b2.jfif": "./static/media/campus2.8b72b8b2.jfif",
+    "static/media/campus3.44ff13bf.jfif": "./static/media/campus3.44ff13bf.jfif",
+    "static/media/chirnajeevkumar.08c154a8.jpg": "./static/media/chirnajeevkumar.08c154a8.jpg",
+    "static/media/iitismlogo.4e4b1912.png": "./static/media/iitismlogo.4e4b1912.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.40db40e0.js",
+    "static/css/2.e1e2fe1a.chunk.css",
+    "static/js/2.5057de15.chunk.js",
+    "static/css/main.882d4eca.chunk.css",
+    "static/js/main.8263708a.chunk.js"
+  ]
+}
