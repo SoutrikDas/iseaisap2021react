@@ -29,21 +29,24 @@ function Footer() {
                           </p>
                         </div>
  
-
-                        <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+{/* <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4"> */}
+                        <div className="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
 
                           <h6 className="text-uppercase fw-bold my-4">
-                            Technical Sponsor
+                            Sponsored By
                           </h6>
-                          <p>
-                            Lorem ipsum dolor sit amet.
+                          <p >
+                            <a className="link-dark" href="https://isea-got.in/" target="_blank">Information Security Education and Awareness (ISEA) Project Phase-II</a>
+                            <br />
+                            <br/>
+                            MeitY, Government of India
                           </p>
-                          <h6 className="text-uppercase fw-bold mb-4">
+                          {/* <h6 className="text-uppercase fw-bold mb-4">
                             Publication
                           </h6>
                           <p>
                             Lorem ipsum dolor sit amet.
-                          </p>
+                          </p> */}
                         </div>
 
                         <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 my-4">
@@ -53,7 +56,7 @@ function Footer() {
                           </h6>
                           <p>
                             <i className="bi bi-envelope-fill" />
-                            <a target="_blank" href="mailto:isea-isap2021@iitism.ac.in">isea-isap2021@iitism.ac.in</a>
+                            <a className="link-dark" target="_blank" href="mailto:isea-isap2021@iitism.ac.in">isea-isap2021@iitism.ac.in</a>
                           </p>
                           <p><i className="bi bi-house-fill" /> Indian Institute of Technology Dhanbad, Jharkhand, India,
                             826004</p>

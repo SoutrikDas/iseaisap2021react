@@ -23,7 +23,8 @@ import Technical from './program/Technical';
 import Tutorials from './program/Tutorials';
 import Social from './program/Social';
 import Organizing from './committee/Organizing';
-import Socialc from './committee/Socialc';
+import TechnicalCommittee from './committee/TechnicalCommittee';
+import Header from './components/Header';
 
 
 
@@ -34,6 +35,7 @@ function App() {
     <Router>
     <div className="App">
       <Navbar/>
+      <Header/>
       <Switch>
         <Route exact path="/">
           <Home/>
@@ -84,8 +86,8 @@ function App() {
         <Route exact path="/committee/organizing">
           <Organizing/>
         </Route>
-        <Route exact path="/committee/social">
-          <Socialc/>
+        <Route exact path="/committee/technical">
+          <TechnicalCommittee/>
         </Route>
 
 
