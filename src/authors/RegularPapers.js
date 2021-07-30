@@ -83,6 +83,7 @@ const RegularPapers = () => {
 
         </tbody>
       </table>
+            <a className="btn-danger btn" href="https://easychair.org/conferences/?conf=iseaisap2021" target="_blank">Submit Papers before 15<sup>th</sup> Aug</a>
             </div>
         </div>
      );
