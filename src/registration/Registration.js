@@ -83,17 +83,22 @@ const Registration = () => {
                     registration process before uploading the camera ready paper and e-copyright form as per the
                     stipulated final dates.The Registration fee should be submitted to the account whose details are
                     given below.</li>
-                <li className="list-group-item list-group-item-action bg-secondary text-white"> <mark>Note:</mark> Any accepted paper included in the final program is expected to have at least one author attend and present the paper at the conference. Non-presented paper will not be submitted to IEEE Xplore® digital library as per IEEE no-show policy.</li>
+                <li className="list-group-item list-group-item-action bg-secondary text-white"> Note: Any accepted paper included in the final program is expected to have at least one author attend and present the paper at the conference. Non-presented paper will not be submitted to IEEE Xplore® digital library as per IEEE no-show policy.</li>
             </ol>
                 
             <h2 className="display-6 mt-5 ">Registration Details</h2>
             <hr className="mb-5 mx-5 " />
+            <p className="fs-5 text-start ps-3">All candidates those wish to register may kindly transfer the money to the following Bank Account</p>
             <ul class="list-group list-group-flush my-3 text-start">
                 <li class="list-group-item fs-4">Name of the Account:<strong> IIT (ISM) Special Fund</strong></li>
                 <li class="list-group-item fs-4">Account Number:<strong> 0986101024892</strong></li>
                 <li class="list-group-item fs-4">Name of the Bank:<strong> Canara Bank</strong></li>
                 <li class="list-group-item fs-4">IFSC:<strong> CNRB0000986</strong></li>
             </ul>
+            <p className="fs-5 text-start ps-3">Please note down the transaction ID and take a snapshot of the transaction completion then fill the registration form given below in the link</p>
+            <p className="text-light bg-primary fs-4 mt-5 p-4 d-inline-block rounded-3">Registration Link Coming Soon. Stay Tuned.</p>
+            <p className="text-primary fs-4 mt-5">Registration Link Coming Soon.</p>
+            <p className="text-light bg-dark fs-4 mt-5 p-4 d-inline-block">Registration Link Coming Soon. Stay Tuned.</p>
 
             </div>
 

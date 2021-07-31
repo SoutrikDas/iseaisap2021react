@@ -14,8 +14,9 @@ const Navbar = () => {
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                       <span className="navbar-toggler-icon" />
                     </button>
-                    <div className="collapse navbar-collapse " id="navbarSupportedContent">
-                      <ul className="navbar-nav  me-auto mb-2 mb-lg-0 ">
+                    {/* d-flex align-items-center */}
+                    <div className="collapse navbar-collapse  " id="navbarSupportedContent">
+                      <ul className="navbar-nav  me-auto mb-2 mb-lg-0 justify-content-center">
                         <li className="nav-item">
                           <Link to="/" className="nav-link active">Home</Link>
                           {/* <a className="nav-link active" aria-current="page" href="index.html">Home</a> */}
@@ -75,13 +76,16 @@ const Navbar = () => {
                         </li>
                         <li className="nav-item dropdown active">
                           <a className="nav-link dropdown-toggle active " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Committe
+                            Committee
                           </a>
                           <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><Link className="dropdown-item" to="/committee/organizing">Organizing Committe</Link></li>
-                            <li><Link className="dropdown-item" to="/committee/technical">Technical Program Committe</Link></li>
+                            <li><Link className="dropdown-item" to="/committee/organizing">Organizing Committee</Link></li>
+                            <li><Link className="dropdown-item" to="/committee/technical">Technical Program Committee</Link></li>
                           </ul>
                         </li>
+                        {/* <li className="nav-item bg-danger ">
+                          <a className="link-light">Submit Papers before 15<sup>th</sup> August</a>
+                        </li> */}
                       </ul>
                     </div>
                   </div>

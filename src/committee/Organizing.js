@@ -1,6 +1,7 @@
 import Cell from '../components/Cell';
 import Data from '../data.json'
 import rough from '../images/people/chirnajeevkumar.jpg';
+
 // var data = 
 console.log(Object.keys(Data))
 var chiefPatron = {

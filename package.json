@@ -9,9 +9,11 @@
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
+    "better-docs": "^2.3.2",
     "bootstrap": "^5.0.2",
     "bootstrap-icons": "^1.5.0",
     "gh-pages": "^3.2.3",
+    "jsdoc": "^3.6.7",
     "react": "^17.0.2",
     "react-bootstrap-icons": "^1.5.0",
     "react-dom": "^17.0.2",
@@ -23,10 +25,11 @@
   "scripts": {
     "start": "react-scripts start",
     "predeploy": "npm run build",
-    "deploy": "npm run build && rmdir /s /q docs && Rename build docs",
+    "deploy": "npm run build && rmdir /s /q docs && Rename build docs && Echo isea.soutrik.net > docs/CNAME",
     "build": "react-scripts build ",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "docs": "jsdoc -c jsdoc.conf.json"
   },
   "eslintConfig": {
     "extends": [

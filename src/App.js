@@ -3,7 +3,7 @@ import './App.css';
 import Footer from './components/Footer';
 
 
-import{HashRouter as Router,Route,Switch} from 'react-router-dom'
+import { HashRouter as Router, Route, Switch } from 'react-router-dom'
 import Navbar from './components/Navbar';
 import Ddaward from './authors/Ddaward';
 import Tutorial from './authors/Tutorial';
@@ -34,71 +34,82 @@ import CustomTimeline from './components/CustomTimeline';
 function App() {
   return (
     <Router>
-    <div className="App">
-      <Navbar/>
-      <Header/>
-      <Switch>
-        <Route exact path="/">
-          <Home/>
-        </Route>
-        {/* Authors Begin */}
-        <Route exact path="/authors/regularpapers">
-          <RegularPapers/>
-        </Route>
-        <Route exact path="/authors/ddaward">
-          <Ddaward/>
-        </Route>
-        <Route exact path="/authors/tutorial">
-          <Tutorial/>
-        </Route>
-        {/* Authors End , Registration Begin */}
-        <Route exact path="/registration">
-          <Registration/>
-        </Route>
-        <Route exact path="/registration/hotel">
-          <HotelReg/>
-        </Route>
-        {/* Registration End  */}
-        <Route exact path="/fellowship">
-          <Fellowship/>
-        </Route>
-        {/* Venue Begin */}
-        <Route exact path="/venue/conference">
-          <Conference/>
-        </Route>
-        <Route exact path="/venue/campusacc">
-          <CampusAcc/>
-        </Route>
-        
-        {/* Venue End , Program Begin  */}
-        <Route exact path="/program/keynotespeakers">
-          <KeynoteSpeakers/>
-        </Route>
-        <Route exact path="/program/technical">
-          <Technical/>
-        </Route>
-        <Route exact path="/program/tutorials">
-          <Tutorials/>
-        </Route>
-        <Route exact path="/program/social">
-          <Social/>
-        </Route>
-        {/* Program End , Committee Begin */}
-        <Route exact path="/committee/organizing">
-          <Organizing/>
-        </Route>
-        <Route exact path="/committee/technical">
-          <TechnicalCommittee/>
-        </Route>
-        <Route exact path="/timeline">
-          <CustomTimeline/>
-        </Route>
+      <div className="App">
+        <Navbar />
+
+        <div className="alert alert-info m-0 text-start" role="alert">
+          <a className="link-dark lead" href="https://easychair.org/conferences/?conf=iseaisap2021">Submit Papers before 15<sup>th</sup> August</a>
+        </div>
+        <div className="alert alert-danger m-0 fs-5" role="alert">
+        Submit Papers before 15<sup>th</sup> August.   <span>
+          <a className="link-dark" href="https://easychair.org/conferences/?conf=iseaisap2021">  Click Here</a></span>
+        </div>
+        <div className="alert alert-warning m-0" role="alert">
+          <a className="link-dark" href="https://easychair.org/conferences/?conf=iseaisap2021">Submit Papers before 15<sup>th</sup> August</a>
+        </div>
+        <Header />
+        <Switch>
+          <Route exact path="/">
+            <Home />
+          </Route>
+          {/* Authors Begin */}
+          <Route exact path="/authors/regularpapers">
+            <RegularPapers />
+          </Route>
+          <Route exact path="/authors/ddaward">
+            <Ddaward />
+          </Route>
+          <Route exact path="/authors/tutorial">
+            <Tutorial />
+          </Route>
+          {/* Authors End , Registration Begin */}
+          <Route exact path="/registration">
+            <Registration />
+          </Route>
+          <Route exact path="/registration/hotel">
+            <HotelReg />
+          </Route>
+          {/* Registration End  */}
+          <Route exact path="/fellowship">
+            <Fellowship />
+          </Route>
+          {/* Venue Begin */}
+          <Route exact path="/venue/conference">
+            <Conference />
+          </Route>
+          <Route exact path="/venue/campusacc">
+            <CampusAcc />
+          </Route>
+
+          {/* Venue End , Program Begin  */}
+          <Route exact path="/program/keynotespeakers">
+            <KeynoteSpeakers />
+          </Route>
+          <Route exact path="/program/technical">
+            <Technical />
+          </Route>
+          <Route exact path="/program/tutorials">
+            <Tutorials />
+          </Route>
+          <Route exact path="/program/social">
+            <Social />
+          </Route>
+          {/* Program End , Committee Begin */}
+          <Route exact path="/committee/organizing">
+            <Organizing />
+          </Route>
+          <Route exact path="/committee/technical">
+            <TechnicalCommittee />
+          </Route>
+          <Route exact path="/timeline">
+            <CustomTimeline />
+          </Route>
 
 
 
-      </Switch>
-      <Footer/>
-    </div>
+        </Switch>
+        <Footer />
+      </div>
 
     </Router>
   );
