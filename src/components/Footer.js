@@ -14,25 +14,27 @@ function Footer() {
                             <i className="bi bi-calendar-range-fill" /> Important Dates
                           </h6>
                           <p>
-                            Opening Call for Paper :<span className="text-warning"> 15 June, 2021</span>
+                            {/* Opening Call for Paper :<span className="text-warning"> 15 June, 2021</span> */}
+                            Opening Call for Paper :<span style={{opacity:'0.6',color:'white'}}> 15 June, 2021</span>
                             <br />
                             <br />
-                            Paper Submission Deadline :<span className="text-primary text-shadow"> 15 August, 2021</span>
+                            {/* Paper Submission Deadline :<span className="text-primary text-shadow"> 15 August, 2021</span> */}
+                            Paper Submission Deadline :<span style={{opacity:'0.6',color:'white'}}> 15 August, 2021</span>
                             <br />
                             {/* <br />
                             <a className="text-reset" href="https://easychair.org/conferences/?conf=iseaisap2021">Submit Here</a>
                             <br /> */}
                             <br />
-                            Notification of Acceptance : 20 September, 2021
+                            Notification of Acceptance : <span style={{opacity:'0.6',color:'white'}}>20 September, 2021</span>
                             <br />
                             <br />
-                            Submission of Camera Ready Paper : 30 September, 2021
+                            Submission of Camera Ready Paper : <span style={{opacity:'0.6',color:'white'}}>30 September, 2021 </span>
                             <br />
                             <br />
                             Author Registration : <span style={{opacity:'0.6',color:'white'}}>15 October, 2021</span>
                             <br />
                             <br />
-                            Conference : 27-30 October, 2021
+                            Conference : <span style={{opacity:'0.6',color:'white'}}>27-30 October, 2021</span>
                           </p>
                         </div>
  

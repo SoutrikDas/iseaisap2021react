@@ -1,17 +1,17 @@
 import emptyimg from '../images/emptyimg.png'
 
-const TimelineCard = ({ title, imgurl, name, desc }) => {
+const TextTimelineCard = ({ title, imgurl, name, desc }) => {
     return (
         // style="max-width: 540px;"
         <div className="card mb-3" >
-            <div className="row g-0">
-                <div className="col-md-3 m-1">
+            <div className="">
+                {/* <div className="col-md-3 m-1">
                     <img src={imgurl ? imgurl : emptyimg} className="img-fluid rounded-start" alt="..." />
-                </div>
-                <div className="col-md-8">
+                </div> */}
+                <div className="">
                     <div className="card-body">
-                        <p className="card-title">{title}</p>
-                        <p className="card-text"><small>Talk By {name} : {desc}</small></p>
+                        <p className="card-title ">{title}</p>
+                        <p className="card-text"><small>Talk By <strong>{name}</strong> : {desc}</small></p>
                         {/* <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p> */}
                     </div>
                 </div>
@@ -20,4 +20,4 @@ const TimelineCard = ({ title, imgurl, name, desc }) => {
     );
 }
 
-export default TimelineCard;
+export default TextTimelineCard;

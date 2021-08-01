@@ -43,9 +43,11 @@ const Home = () => {
             <hr className="mx-5 mb-5"/> */}
 
 
-        <Link className="btn-primary btn" to="/authors/regularpapers" >Check Call for Regular Papers</Link>
+        <Link className="btn-primary btn mt-3 " to="/authors/regularpapers" >Check Call for Regular Papers To Submit Papers</Link>
       </div>
-      <div className="m-1 m-md-5 p-1 p-md-5 shadow bg-body rounded">
+      <h1 class="display-4 mt-5">Timeline</h1> 
+        <hr className="mx-5 mb-5"/>
+      <div className=" m-md-5  p-md-5 shadow bg-body rounded">
         <CustomTimeline />
       </div>
     </div>

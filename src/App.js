@@ -27,6 +27,8 @@ import TechnicalCommittee from './committee/TechnicalCommittee';
 import Header from './components/Header';
 import CustomTimeline from './components/CustomTimeline';
 
+import Alert from './components/Alert';
+
 
 
 
@@ -36,20 +38,10 @@ function App() {
     <Router>
       <div className="App">
         <Navbar />
-
-        <div className="alert alert-info m-0 text-start" role="alert">
-          <a className="link-dark lead" href="https://easychair.org/conferences/?conf=iseaisap2021">Submit Papers before 15<sup>th</sup> August</a>
-        </div>
-        <div className="alert alert-danger m-0 fs-5" role="alert">
-        Submit Papers before 15<sup>th</sup> August.   <span>
-          <a className="link-dark" href="https://easychair.org/conferences/?conf=iseaisap2021">  Click Here</a></span>
-        </div>
-        <div className="alert alert-warning m-0" role="alert">
-          <a className="link-dark" href="https://easychair.org/conferences/?conf=iseaisap2021">Submit Papers before 15<sup>th</sup> August</a>
-        </div>
-        <Header />
+          <Alert/>
         <Switch>
           <Route exact path="/">
+            <Header />
             <Home />
           </Route>
           {/* Authors Begin */}

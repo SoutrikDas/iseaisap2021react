@@ -19,7 +19,7 @@ const Conference = () => {
                         The institute was converted into an IIT on September 2016. The institute is located at a distance
                         of about 3 KM from Dhanbad Railway Station. Dhanbad is well connected by railways with
                         other important cities of the country like Chennai, Delhi, Kolkata, Mumbai, etc. The nearest
-                        airports are Kolkata (250 KM) and Ranchi (180 KM). Please visit http://www.iitism.ac.in for
+                        airports are Kolkata (250 KM) and Ranchi (180 KM). Please visit <a href="http://www.iitism.ac.in" target="_blank" rel="noopener noreferrer">our homepage</a> for
                         more details.</p>
                     </div>
                 </div>
@@ -43,7 +43,7 @@ const Conference = () => {
                     primary research areas include Information Security, Network Security, Multimedia Security,
                     Machine Learning, Soft Computing, Data Mining, Cloud Computing, Bioinformatics, Wireless
                     Networks, Software Engineering, Image Processing, etc. Please visit
-                    <a href="http://iitism.ac.in/index.php/computer_science"> iitism.ac.in/index.php/computer_science</a> for more details.</p>
+                    <a href="http://iitism.ac.in/index.php/computer_science" target="_blank" rel="noopener noreferrer"> iitism.ac.in/index.php/computer_science</a> for more details.</p>
                 </div>
                 </div>  
             </div>
