@@ -45,7 +45,7 @@ const Home = () => {
 
         <Link className="btn-primary btn mt-3 " to="/authors/regularpapers" >Check Call for Regular Papers To Submit Papers</Link>
       </div>
-      <h1 class="display-4 mt-5">Timeline</h1> 
+      <h1 className="display-4 mt-5">Timeline</h1> 
         <hr className="mx-5 mb-5"/>
       <div className=" m-md-5  p-md-5 shadow bg-body rounded">
         <CustomTimeline />

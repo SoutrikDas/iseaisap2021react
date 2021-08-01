@@ -24,38 +24,38 @@ var events = [
         "title":"Conference Begins",
         "date": new Date(2021,10-1,27),
     },
-    {
-        "title": "Pre Conference Talk",
-        "isTalk":true,
-        "date": new Date(2021,10-1,27,10),
-        "name" : "John Doe",
-        "desc" : "Tradeoff between Disclosable and Private Latent Information Revealed via Compressed One: an ADMM-Based Approach",
-        "imgurl":""
-    },
-    {
-        "title": "Keynote 1",
-        "isTalk":true,
-        "date": new Date(2021,10-1,28,14),
-        "name" : "John Doe",
-        "desc" : "Tradeoff between Disclosable and Private Latent Information Revealed via Compressed One: an ADMM-Based Approach",
-        "imgurl":"" 
-    },
-    {
-        "title": "Keynote 2",
-        "isTalk":true,
-        "date": new Date(2021,10-1,29,9,30),
-        "name" : "Rami Puzis",
-        "desc" : "Mastering the Social Networks",
-        "imgurl":"" 
-    },
-    {
-        "title": "Keynote 3",
-        "isTalk":true,
-        "date": new Date(2021,10-1,29,14,30),
-        "name" : "Rajeev Barua",
-        "desc" : " Malware Analysis: Beating the Bad Guys",
-        "imgurl":"" 
-    },
+    // {
+    //     "title": "Pre Conference Talk",
+    //     "isTalk":true,
+    //     "date": new Date(2021,10-1,27,10),
+    //     "name" : "John Doe",
+    //     "desc" : "Tradeoff between Disclosable and Private Latent Information Revealed via Compressed One: an ADMM-Based Approach",
+    //     "imgurl":""
+    // },
+    // {
+    //     "title": "Keynote 1",
+    //     "isTalk":true,
+    //     "date": new Date(2021,10-1,28,14),
+    //     "name" : "John Doe",
+    //     "desc" : "Tradeoff between Disclosable and Private Latent Information Revealed via Compressed One: an ADMM-Based Approach",
+    //     "imgurl":"" 
+    // },
+    // {
+    //     "title": "Keynote 2",
+    //     "isTalk":true,
+    //     "date": new Date(2021,10-1,29,9,30),
+    //     "name" : "Rami Puzis",
+    //     "desc" : "Mastering the Social Networks",
+    //     "imgurl":"" 
+    // },
+    // {
+    //     "title": "Keynote 3",
+    //     "isTalk":true,
+    //     "date": new Date(2021,10-1,29,14,30),
+    //     "name" : "Rajeev Barua",
+    //     "desc" : " Malware Analysis: Beating the Bad Guys",
+    //     "imgurl":"" 
+    // },
     {
         "title":"Conference Ends",
         "date": new Date(2021,10-1,30),

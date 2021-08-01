@@ -14,8 +14,8 @@ const RegularPapers = () => {
           <tbody>
             <tr>
 
-              <td scope="row" className="text-center">Cryptography and Cryptanalysis</td>
-              <td scope="row" className="text-center">Code-based Cryptography</td>
+              <td scope="row" className="text-center" style={{width:"50%"}}>Cryptography and Cryptanalysis</td>
+              <td scope="row" className="text-center" style={{width:"50%"}}>Code-based Cryptography</td>
             </tr>
             <tr>
 
@@ -28,7 +28,6 @@ const RegularPapers = () => {
               <td scope="row" className="text-center">Security and Privacy in WSNs</td>
             </tr>
             <tr>
-
               <td scope="row" className="text-center">Network Security</td>
               <td scope="row" className="text-center">Security and Privacy in e-Services</td>
             </tr>

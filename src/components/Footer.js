@@ -1,5 +1,4 @@
 import * as Icon from 'react-bootstrap-icons';
-console.log("footer js is on")
 
 function Footer() {
     return ( 

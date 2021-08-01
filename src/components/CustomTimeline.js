@@ -49,16 +49,16 @@ const useStyles = makeStyles((theme) => ({
 
 
 var today = new Date();
-console.log(today)
-var someday =new Date(2021,6,15)
-console.log(someday.toDateString())
+// console.log(today)
+// var someday =new Date(2021,6,15)
+// console.log(someday.toDateString())
 // for 2021 , June (6) , 15 you have to do new Date(2021,6-1,15)
 
 
 
 
-console.log("Hello")
-console.log(events[2].date)
+// console.log("Hello")
+// console.log(events[2].date)
 
 const CustomTimeline = () => {
     const classes = useStyles();
@@ -73,7 +73,7 @@ const CustomTimeline = () => {
                         let tempcolor = event.date<today ? "primary" : "";
                         if(!event.isTalk)
                         {   
-                            console.log(`Temp color${tempcolor}`)
+                            // console.log(`Temp color${tempcolor}`)
                             return(
                                 <TimelineItem>
                                     <TimelineOppositeContent>

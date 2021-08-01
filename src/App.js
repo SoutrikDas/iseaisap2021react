@@ -28,9 +28,11 @@ import Header from './components/Header';
 import CustomTimeline from './components/CustomTimeline';
 
 import Alert from './components/Alert';
+import events from './components/events'
 
 
 
+let today = new Date()
 
 
 function App() {
@@ -38,7 +40,7 @@ function App() {
     <Router>
       <div className="App">
         <Navbar />
-          <Alert/>
+          {today<=events[1].date ? <Alert/> : <></>}
         <Switch>
           <Route exact path="/">
             <Header />

@@ -43,7 +43,7 @@ const Conference = () => {
                     primary research areas include Information Security, Network Security, Multimedia Security,
                     Machine Learning, Soft Computing, Data Mining, Cloud Computing, Bioinformatics, Wireless
                     Networks, Software Engineering, Image Processing, etc. Please visit
-                    <a href="http://iitism.ac.in/index.php/computer_science" target="_blank" rel="noopener noreferrer"> iitism.ac.in/index.php/computer_science</a> for more details.</p>
+                    <a href="https://www.iitism.ac.in/index.php/Departments/dept_cse" target="_blank" rel="noopener noreferrer"> iitism.ac.in/index.php/computer_science</a> for more details.</p>
                 </div>
                 </div>  
             </div>

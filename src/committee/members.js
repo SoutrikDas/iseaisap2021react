@@ -17,7 +17,7 @@ var advisoryBoard = [
     {
         "name":"Prof. N. Balakrishnan",
         "localimg":"",
-        "imgurl":"http://aero.iisc.ac.in/wp-content/uploads/2016/05/n-balakrishnan.jpg",
+        "imgurl":"",
         "worksAt":"Indian Institute of Science, Bangalore"
     },
     {
@@ -167,7 +167,7 @@ var technicalProgramCommitte = [
     },
     {
         "name":"Dr. Haider Banka",
-        "worksAt" : "Indian Institute of Technology (ISM) Dhanbad, India",
+        "worksAt" : "Indian Institute of Technology (ISM) Dhanbad",
         "imgurl" : "https://www.iitism.ac.in/assets/employee/859/859.jpg",
         "localimg" : "",
     },
@@ -204,7 +204,7 @@ var technicalProgramCommitte = [
     },
     {
         "name":"Dr. Somitra Kr. Sanadhya",
-        "worksAt" : "Indian Institute of Technology Ropar",
+        "worksAt" : "Indian Institute of Technology, Ropar",
         "imgurl" : "https://iitrpr.irins.org/assets/profile_images/62410.PNG",
         "localimg" : "",
     },
@@ -222,37 +222,37 @@ var technicalProgramCommitte = [
     },
     {
         "name":"Dr. Rifaqat Ali",
-        "worksAt" : "National Institute of Technology Hamirpur, India",
+        "worksAt" : "National Institute of Technology Hamirpur",
         "imgurl" : "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=m4NaiJEAAAAJ&citpid=5",
         "localimg" : "",
     },
     {
         "name":"Dr. Hari Om",
-        "worksAt" : "Indian Institute of Technology (ISM) Dhanbad, India",
+        "worksAt" : "Indian Institute of Technology (ISM) Dhanbad",
         "imgurl" : "https://www.iitism.ac.in/assets/employee/818/emp_818_20151118052444.jpg",
         "localimg" : "",
     },
     {
         "name":"Dr. Abhay Kumar Singh",
-        "worksAt" : "Indian Institute of Technology (ISM) Dhanbad, India",
+        "worksAt" : "Indian Institute of Technology (ISM) Dhanbad",
         "imgurl" : "https://www.iitism.ac.in/assets/employee/911/emp_911_20151118061811.jpg",
         "localimg" : "",
     },
     {
         "name":"Dr. Soumen Bag",
-        "worksAt" : "Indian Institute of Technology (ISM) Dhanbad, India",
+        "worksAt" : "Indian Institute of Technology (ISM) Dhanbad",
         "imgurl" : "https://www.iitism.ac.in/assets/employee/1069/emp_1069.jpg",
         "localimg" : "",
     },
     {
         "name":"Dr. Ansuman Bhattacharya",
-        "worksAt" : "Indian Institute of Technology (ISM) Dhanbad, India",
+        "worksAt" : "Indian Institute of Technology (ISM) Dhanbad",
         "imgurl" : "https://www.iitism.ac.in/assets/employee//1177.jpg",
         "localimg" : "",
     },
     {
         "name":"Ms Tanusree Kaibartta",
-        "worksAt" : "Indian Institute of Technology (ISM) Dhanbad, India",
+        "worksAt" : "Indian Institute of Technology (ISM) Dhanbad",
         "imgurl" : "https://www.iitism.ac.in/assets/employee/1036/emp_1036_20151118065347.jpg",
         "localimg" : "",
     },
