@@ -17,7 +17,7 @@ var advisoryBoard = [
     {
         "name":"Prof. N. Balakrishnan",
         "localimg":"",
-        "imgurl":"",
+        "imgurl":"https://i.ibb.co/0Z9dwP8/balakrishnan.jpg",
         "worksAt":"Indian Institute of Science, Bangalore"
     },
     {
@@ -41,7 +41,7 @@ var advisoryBoard = [
     {
         "name":"Prof. V. Kamakoti",
         "localimg":"",
-        "imgurl":"http://www.cse.iitm.ac.in/images/kama.jpg",
+        "imgurl":"https://i.ibb.co/fCzxy1c/kamkoti.png",
         "worksAt":"Indian Institute of Technology, Madras"
     },
     {
@@ -113,15 +113,20 @@ var conferenceChairs =[
         "name" : "Dr. Rajendra Pamula", "imgurl" : "https://www.iitism.ac.in/assets/employee/919/emp_919_20151118062014.jpg" , "worksAt" : "Indian Institute of Technology (ISM) Dhanbad" , "position":"Publicity", 
     },
     {
-        "name" : "Dr. N Hubbali", "imgurl" : "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=tER-kV0AAAAJ&citpid=3" , "worksAt" : "Indian Institute of Technology Indore" , "position":"Publicity", 
+        "name" : "Dr. N Hubbali", "imgurl" : "https://i.ibb.co/z5QtnNN/hubbali.jpg" , "worksAt" : "Indian Institute of Technology Indore" , "position":"Publicity", 
     },
     {
         "name" : "Dr. P Swain", "imgurl" : "https://i.ibb.co/185PVL8/download.jpg" , "worksAt" : "National Institute of Technology Goa" , "position":"Publicity", 
     },
     {
-        "name" : "Dr. Bidyut Kumar Patra", "imgurl" : "" , "worksAt" : "National Institute of Technology Rourkela" , "position":"Publicity", 
+        "name" : "Dr. Bidyut Kumar Patra", "imgurl" : "https://i.ibb.co/1dtmnBY/bidutkumarpatra.jpg" , "worksAt" : "National Institute of Technology Rourkela" , "position":"Publicity", 
     },
 ]
+
+// <a href="https://imgbb.com/"><img src="https://i.ibb.co/fCzxy1c/kamkoti.png" alt="kamkoti" border="0"></a>
+// <a href="https://ibb.co/617WZGc"><img src="https://i.ibb.co/1dtmnBY/bidutkumarpatra.jpg" alt="bidutkumarpatra" border="0"></a>
+// <a href="https://ibb.co/H2B9FXX"><img src="https://i.ibb.co/z5QtnNN/hubbali.jpg" alt="hubbali" border="0"></a><br /><a target='_blank' href='https://nonprofitlight.com/ny/brooklyn/bay-ridge-preparatory-school'>bay ridge prep</a><br />
+
 var technicalProgramCommitte = [
     {
         "name":"Prof. Sugata Gangopadhyay",
