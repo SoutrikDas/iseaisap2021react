@@ -8,8 +8,7 @@ const Navbar = () => {
                   <div className="container-fluid  ">
                     {/*  Use text-end  to align to left */}
                     <a className="navbar-brand " href="https://iitism.ac.in" target="_blank"> 
-                      <img className="img-fluid flex-column" style={{width:'50px', height: 'auto'}} src={iitismlogo} alt="" />
-                      IIT ISM Dhanbad
+                      <img className="img-fluid flex-column" style={{width:'50px', height: 'auto'}} src={iitismlogo} alt="" /> IIT ISM Dhanbad
                     </a>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                       <span className="navbar-toggler-icon" />
@@ -62,16 +61,16 @@ const Navbar = () => {
                             <li><a className="dropdown-item" href="venue/campusaccomodation.html">Campus Accomodation</a></li> */}
                           </ul>
                         </li>
-                        <li className="nav-item dropdown" data-bs-toggle="tooltip" data-bs-placement="top" title="Coming Soon">
+                        <li className="nav-item dropdown active">
                           
-                          <a className="nav-link dropdown-toggle disabled" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"  aria-expanded="false">
+                          <a className="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"  aria-expanded="false">
                             Program
                           </a>
                           <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                             <li><Link className="dropdown-item" to="/program/keynotespeakers">Keynote Speakers</Link></li>
-                            <li><Link className="dropdown-item" to="/program/technical">Final Technical Program</Link></li>
-                            <li><Link className="dropdown-item" to="/program/tutorials">Tutorials</Link></li>
-                            <li><Link className="dropdown-item" to="/program/social">Social Events</Link></li>
+                            <li><Link className="dropdown-item disabled" to="/program/technical">Final Technical Program</Link></li>
+                            <li><Link className="dropdown-item disabled" to="/program/tutorials">Tutorials</Link></li>
+                            <li><Link className="dropdown-item disabled" to="/program/social">Social Events</Link></li>
                           </ul>
                         </li>
                         <li className="nav-item dropdown active">

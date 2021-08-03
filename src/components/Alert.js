@@ -12,8 +12,7 @@ const Alert = () => {
           <a className="link-dark" href="https://easychair.org/conferences/?conf=iseaisap2021">  Click Here</a></span>
         </div> */}
         <div className="alert alert-danger m-0 fs-5 " role="alert">
-        Submit Papers before 15<sup>th</sup> August.
-          <Link to="/authors/regularpapers" className="link-dark"> Click Here</Link>
+        Submit Papers before 15<sup>th</sup> August. <Link to="/authors/regularpapers" className="">Click Here</Link>
         </div>
         {/* <div className="alert alert-warning m-0" role="alert">
           <a className="link-dark" href="https://easychair.org/conferences/?conf=iseaisap2021">Submit Papers before 15<sup>th</sup> August</a>

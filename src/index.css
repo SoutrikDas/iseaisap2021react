@@ -104,3 +104,9 @@ height:70vh;
 .hidden{
   display: none;
 }
+
+@media( max-width: 768px){
+  .small-hidden{
+    display: none;
+  }
+}

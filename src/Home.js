@@ -4,6 +4,7 @@ import campus3 from './images/campus3.jfif'
 
 import { Link } from "react-router-dom";
 import CustomTimeline from './components/CustomTimeline';
+import TopAttraction from './components/TopAttraction';
 
 const Home = () => {
   return (
@@ -50,6 +51,11 @@ const Home = () => {
       <div className=" m-md-5  p-md-5 shadow bg-body rounded">
         <CustomTimeline />
       </div>
+      <h1 className="display-4 mt-5">Top Attractions</h1> 
+        <hr className="mx-5 mb-5"/>
+        <div>
+          <TopAttraction />
+        </div>
     </div>
 
   );

@@ -24,22 +24,46 @@ var events = [
         "title":"Conference Begins",
         "date": new Date(2021,10-1,27),
     },
+
     {
-        "title": "Pre Conference Talk",
+        "name": "Keshav Dahal",
         "isTalk":true,
-        "date": new Date(2021,10-1,27,10),
-        "name" : "Keshav Dahal",
-        "desc" : "Blockchain Characteristics and its Effect in Business Models",
-        "imgurl":""
+        "imgurl": "https://research-portal.uws.ac.uk/files-asset/258789/Keshav_photo.jpg?w=160&f=webp",
+        "worksAt": "University of the West of Scotland (UWS)U.K",
+        "title": "Pre Conference Talk",
+        "topic": "Blockchain Characteristics and its Effect in Business Models",
+        "bio" : "Professor Keshav Dahal is a Professor of intelligent systems and the director of the Artificial Intelligence, Visual Communications and Network (AVCN) Research Centre, University of the West of Scotland, Paisley, U.K. He received his Masters and Ph.D. degrees from the University of Strathclyde, UK. He also worked at the University of Bradford and the University of Strathclyde. His research interests lie in the areas of applied AI, trust and security modelling in distributed systems, Blockchain technology and scheduling/optimization problems. He has been principle investigator or co-investigators on more than 15 externally funded projects, and supervised over 25 PhD and postdoctoral researchers. He has published over 160 papers in his research fields with award winning publications and has sat on organizing/program committees of over 60 international conferences. He is a Senior Member of IEEE.",
+        "abstract":"",
+        "date": new Date(2021, 10 - 1, 27),
+        "website":"https://research-portal.uws.ac.uk/en/persons/keshav-dahal",
+
     },
-    // {
-    //     "title": "Keynote 1",
-    //     "isTalk":true,
-    //     "date": new Date(2021,10-1,28,14),
-    //     "name" : "John Doe",
-    //     "desc" : "Tradeoff between Disclosable and Private Latent Information Revealed via Compressed One: an ADMM-Based Approach",
-    //     "imgurl":"" 
-    // },
+    {
+        "name": "Will be Updated Soon",
+        "isTalk":true,
+        "imgurl": "",
+        "worksAt": "Will be Updated Soon",
+        "title": "Keynote 1 ",
+        "topic": "Will be Updated Soon",
+        "bio" : "Will be Updated Soon",
+        "abstract":"Will be Updated Soon",
+        "date": new Date(2021, 10 - 1, 28),
+        "website":"",
+
+    },
+    {
+        "name": "Will be Updated Soon",
+        "isTalk":true,
+        "imgurl": "",
+        "worksAt": "Will be Updated Soon",
+        "title": "Keynote 2",
+        "topic": "Will be Updated Soon",
+        "bio" : "Will be Updated Soon",
+        "abstract":"",
+        "date": new Date(2021, 10 - 1, 29),
+        "website":"",
+
+    },
     // {
     //     "title": "Keynote 2",
     //     "isTalk":true,

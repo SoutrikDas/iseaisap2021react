@@ -14,6 +14,7 @@ import TextTimelineCard from './TextTimelineCard';
 import { makeStyles } from '@material-ui/core/styles';
 import { createTheme } from '@material-ui/core/styles';
 import events from './events';
+import AlternateTimelineCard from './AlternateTimelineCard';
 
 const customTheme = createTheme({
     palette: {
@@ -86,30 +87,38 @@ const CustomTimeline = () => {
 
                         <TimelineConnector className={isLast?"hidden":event.date<today ? classes.secondaryTail: ""} />
                     </TimelineSeparator>
-                    <TimelineContent>{event.title}</TimelineContent>
+                    <TimelineContent><strong>{event.title}</strong></TimelineContent>
                 </TimelineItem>
             ); //if its not a talk
 
         }//if end
-        else{
-            return(
-                <TimelineItem>
-                    <TimelineOppositeContent>
-                        <Typography color="textSecondary">{temp.toString().slice(0,-31)}</Typography>
-                    </TimelineOppositeContent>
-                    <TimelineSeparator>
-                        <TimelineDot className={event.date<today ?classes.mainDot : ""}/>
+        // else{
+        //     return(
+        //         <>
+                    
 
-                        <TimelineConnector className={event.date<today ? classes.secondaryTail: ""} />
-                    </TimelineSeparator>
-                    <TimelineContent>
+        //             {/* Alternate begins from here */}
+        //             <TimelineItem>
+        //                 <TimelineOppositeContent>
+        //                     <Typography color="textSecondary">{temp.toString().slice(0,-31)}</Typography>
+        //                 </TimelineOppositeContent>
+        //                 <TimelineSeparator>
+        //                     <TimelineDot className={event.date<today ?classes.mainDot : ""}/>
 
-                        <TextTimelineCard  name={event.name} title={event.title} desc={event.desc} imgurl={event.imgurl}/>
-                        {/* <Cell  name={event.name} loc={event.title} pos={event.desc} imgurl={event.imgurl} /> */}
-                    </TimelineContent>
-                </TimelineItem>
-            )
-        }
+        //                     <TimelineConnector className={event.date<today ? classes.secondaryTail: ""} />
+        //                 </TimelineSeparator>
+        //                 <TimelineContent>
+
+        //                     {/* <TextTimelineCard  name={event.name} title={event.title} desc={event.desc} imgurl={event.imgurl}/> */}
+        //                     {/* <TimelineCard  {...event} /> */}
+        //                     <AlternateTimelineCard {...event}/>
+        //                 {/* title, imgurl, name, desc */}
+        //                 </TimelineContent>
+        //             </TimelineItem>
+
+        //         </>
+        //     )
+        // }
     })
 }
                 
