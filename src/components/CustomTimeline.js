@@ -67,52 +67,51 @@ const CustomTimeline = () => {
             <Timeline align="alternate">
                 {/* <Timeline> */}
                 {
-                    events.slice(0,-1).map((event) => {
-                        let temp = event.date;
-                        let isLast = c==events.length-1;
-                        console.log(`Is this the last event=${c==events.length-1} where c=${c} and length-1=${events.length-1}`);
-                        c++;
-                        return(
-                            <TimelineItem>
-                                <TimelineOppositeContent>
-                                    <Typography color="textSecondary">{temp.toDateString()}</Typography>
-                                </TimelineOppositeContent>
-                                {/* {event.date<today ? <TimelineSeparator color="primary"> : <TimelineSeparator>} */}
-                                <TimelineSeparator >
-                                    <TimelineDot className={event.date < today ? classes.mainDot : ""} />
+    events.map( (event)=>{
+        let temp = event.date
+        let isLast = events.slice(-1)[0].title == event.title;
+        console.log(`--islast=${isLast}`)
+        let tempcolor = event.date<today ? "primary" : "";
+        if(!event.isTalk)
+        {   
+            // console.log(`Temp color${tempcolor}`)
+            return(
+                <TimelineItem>
+                    <TimelineOppositeContent>
+                        <Typography color="textSecondary">{temp.toDateString()}</Typography>
+                    </TimelineOppositeContent>
+                    {/* {event.date<today ? <TimelineSeparator color="primary"> : <TimelineSeparator>} */}
+                    <TimelineSeparator >
+                        <TimelineDot className={event.date<today ?classes.mainDot : ""}/>
 
-                                     <TimelineConnector className={event.date < today ? classes.secondaryTail : ""} />
-                                </TimelineSeparator>
-                                {!event.isTalk ? <TimelineContent>{event.title}</TimelineContent> : <TextTimelineCard name={event.name} title={event.title} desc={event.desc} imgurl={event.imgurl} />}
-                            </TimelineItem>
-                        );
+                        <TimelineConnector className={isLast?"hidden":event.date<today ? classes.secondaryTail: ""} />
+                    </TimelineSeparator>
+                    <TimelineContent>{event.title}</TimelineContent>
+                </TimelineItem>
+            ); //if its not a talk
 
-                    })
-                }
+        }//if end
+        else{
+            return(
+                <TimelineItem>
+                    <TimelineOppositeContent>
+                        <Typography color="textSecondary">{temp.toString().slice(0,-31)}</Typography>
+                    </TimelineOppositeContent>
+                    <TimelineSeparator>
+                        <TimelineDot className={event.date<today ?classes.mainDot : ""}/>
 
-                {/* Last item  */}
+                        <TimelineConnector className={event.date<today ? classes.secondaryTail: ""} />
+                    </TimelineSeparator>
+                    <TimelineContent>
 
-                {
-                    events.slice(-1).map((event) => {
-                        let temp = event.date;
-                        let isLast = c==events.length-1;
-                        console.log(`Is this the last event=${c==events.length-1} where c=${c} and length-1=${events.length-1}`);
-                        c++;
-                        return(
-                            <TimelineItem>
-                                <TimelineOppositeContent>
-                                    <Typography color="textSecondary">{temp.toDateString()}</Typography>
-                                </TimelineOppositeContent>
-                                {/* {event.date<today ? <TimelineSeparator color="primary"> : <TimelineSeparator>} */}
-                                <TimelineSeparator >
-                                    <TimelineDot className={event.date < today ? classes.mainDot : ""} />
-                                </TimelineSeparator>
-                                {!event.isTalk ? <TimelineContent>{event.title}</TimelineContent> : <TextTimelineCard name={event.name} title={event.title} desc={event.desc} imgurl={event.imgurl} />}
-                            </TimelineItem>
-                        );
-
-                    })
-                }
+                        <TextTimelineCard  name={event.name} title={event.title} desc={event.desc} imgurl={event.imgurl}/>
+                        {/* <Cell  name={event.name} loc={event.title} pos={event.desc} imgurl={event.imgurl} /> */}
+                    </TimelineContent>
+                </TimelineItem>
+            )
+        }
+    })
+}
                 
 
                 
@@ -125,47 +124,3 @@ export default CustomTimeline;
 
 
 // Previous JSX code for Timeline that had the Thank you and if and else for isEvent
-// {
-//     events.map( (event)=>{
-//         let temp = event.date
-//         let tempcolor = event.date<today ? "primary" : "";
-//         if(!event.isTalk)
-//         {   
-//             // console.log(`Temp color${tempcolor}`)
-//             return(
-//                 <TimelineItem>
-//                     <TimelineOppositeContent>
-//                         <Typography color="textSecondary">{temp.toDateString()}</Typography>
-//                     </TimelineOppositeContent>
-//                     {/* {event.date<today ? <TimelineSeparator color="primary"> : <TimelineSeparator>} */}
-//                     <TimelineSeparator >
-//                         <TimelineDot className={event.date<today ?classes.mainDot : ""}/>
-
-//                         <TimelineConnector className={event.date<today ? classes.secondaryTail: ""} />
-//                     </TimelineSeparator>
-//                     <TimelineContent>{event.title}</TimelineContent>
-//                 </TimelineItem>
-//             ); //if its not a talk
-
-//         }//if end
-//         else{
-//             return(
-//                 <TimelineItem>
-//                     <TimelineOppositeContent>
-//                         <Typography color="textSecondary">{temp.toString()}</Typography>
-//                     </TimelineOppositeContent>
-//                     <TimelineSeparator>
-//                         <TimelineDot className={event.date<today ?classes.mainDot : ""}/>
-
-//                         <TimelineConnector className={event.date<today ? classes.secondaryTail: ""} />
-//                     </TimelineSeparator>
-//                     <TimelineContent>
-
-//                         <TextTimelineCard  name={event.name} title={event.title} desc={event.desc} imgurl={event.imgurl}/>
-//                         {/* <Cell  name={event.name} loc={event.title} pos={event.desc} imgurl={event.imgurl} /> */}
-//                     </TimelineContent>
-//                 </TimelineItem>
-//             )
-//         }
-//     })
-// }

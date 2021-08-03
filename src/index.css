@@ -100,3 +100,7 @@ height:70vh;
 .text-shadow{
   text-shadow: 0px 0px 1px white;
 }
+
+.hidden{
+  display: none;
+}

@@ -24,14 +24,14 @@ var events = [
         "title":"Conference Begins",
         "date": new Date(2021,10-1,27),
     },
-    // {
-    //     "title": "Pre Conference Talk",
-    //     "isTalk":true,
-    //     "date": new Date(2021,10-1,27,10),
-    //     "name" : "John Doe",
-    //     "desc" : "Tradeoff between Disclosable and Private Latent Information Revealed via Compressed One: an ADMM-Based Approach",
-    //     "imgurl":""
-    // },
+    {
+        "title": "Pre Conference Talk",
+        "isTalk":true,
+        "date": new Date(2021,10-1,27,10),
+        "name" : "Keshav Dahal",
+        "desc" : "Blockchain Characteristics and its Effect in Business Models",
+        "imgurl":""
+    },
     // {
     //     "title": "Keynote 1",
     //     "isTalk":true,
