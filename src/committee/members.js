@@ -47,7 +47,7 @@ var advisoryBoard = [
     {
         "name":"Shri Sanjay Kumar Vyas",
         "localimg":"",
-        "imgurl":"",
+        "imgurl":"https://i.ibb.co/6DvFS8G/sanjaykumarvyas.jpg",
         "worksAt":"Ministry of Electronics and Information Technology (MeitY)"
     },
     {
