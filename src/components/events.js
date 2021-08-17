@@ -6,7 +6,7 @@ var events = [
     },
     {
         "title":"Paper Submission Deadline",
-        "date": new Date(2021,8-1,15),
+        "date": new Date(2021,8-1,25),
     },
     {
         "title":"Notification of Acceptance",
