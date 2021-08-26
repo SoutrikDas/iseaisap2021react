@@ -18,7 +18,7 @@ var events = [
     },
     {
         "title":"Notification of Acceptance of Round II",
-        "date": new Date(2021,10-1,20),
+        "date": new Date(2021,10-1,5),
     },
     {
         "title":"Submission of Camera Ready Paper",
