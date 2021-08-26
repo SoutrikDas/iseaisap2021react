@@ -34,7 +34,10 @@ function Footer() {
                             Notification of Acceptance of Round II : <span style={{opacity:'0.6',color:'white'}}>5 October, 2021</span>
                             <br />
                             <br />
-                            Submission of Camera Ready Paper : <span style={{opacity:'0.6',color:'white'}}>30 September, 2021 </span>
+                            Submission of Camera Ready Paper of Round I : <span style={{opacity:'0.6',color:'white'}}>30 September, 2021 </span>
+                            <br />
+                            <br />
+                            Submission of Camera Ready Paper of Round II: <span style={{opacity:'0.6',color:'white'}}>15 October, 2021 </span>
                             <br />
                             <br />
                             Author Registration : <span style={{opacity:'0.6',color:'white'}}>15 October, 2021</span>

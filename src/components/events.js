@@ -17,12 +17,16 @@ var events = [
         "date": new Date(2021,9-1,20),
     },
     {
+        "title":"Submission of Camera Ready Paper of Round I",
+        "date": new Date(2021,9-1,30),
+    },
+    {
         "title":"Notification of Acceptance of Round II",
         "date": new Date(2021,10-1,5),
     },
     {
-        "title":"Submission of Camera Ready Paper",
-        "date": new Date(2021,9-1,30),
+        "title":"Submission of Camera Ready Paper of Round II",
+        "date": new Date(2021,10-1,15),
     },
     {
         "title":"Author Registration",
