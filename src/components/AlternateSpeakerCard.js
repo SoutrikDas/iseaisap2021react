@@ -1,5 +1,5 @@
 import emptyimg from '../images/emptyimg.png'
-
+// element on the path of #/program/keynotespeakers
 const AlternateSpeakerCard = ({ name, imgurl, worksAt, title, topic, bio, abstract, date,website }) => {
     return (
         <div id={name.split(" ").join("")} className="shadow rounded pb-4 text-start mb-md-5 my-3 mx-2 container-fluid border-start border-dark border-5 ">
@@ -8,7 +8,7 @@ const AlternateSpeakerCard = ({ name, imgurl, worksAt, title, topic, bio, abstra
             </div>
             <div className="row my-md-5 mt-5 my-1 ">
                 <div className="col-md-4 mb-4 text-center">
-                    <img className="img-fluid border border-dark border-3 " src={imgurl ? imgurl : emptyimg} alt="" />
+                    <img className="img-fluid border border-dark border-3 " src={imgurl ? imgurl : emptyimg} alt="" style={{ maxWidth: '160px', maxHeight: '170px' }} />
                 </div>
                 <div className="col-md-8 fs-5">
                     <p>

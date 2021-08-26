@@ -18,13 +18,20 @@ function Footer() {
                             <br />
                             <br />
                             {/* Paper Submission Deadline :<span className="text-primary text-shadow"> 15 August, 2021</span> */}
-                            Paper Submission Deadline :<span style={{opacity:'0.6',color:'white'}}> 25 August, 2021</span>
+                            Round I : Paper Submission Deadline :<span style={{opacity:'0.6',color:'white'}}> 25 August, 2021</span>
                             <br />
+                            <br />
+                            Round II : Paper Submission Deadline :<span style={{opacity:'0.6',color:'white'}}> 15 September, 2021</span>
+                            <br/>
+
                             {/* <br />
                             <a className="text-reset" href="https://easychair.org/conferences/?conf=iseaisap2021">Submit Here</a>
                             <br /> */}
                             <br />
-                            Notification of Acceptance : <span style={{opacity:'0.6',color:'white'}}>20 September, 2021</span>
+                            Notification of Acceptance of Round I : <span style={{opacity:'0.6',color:'white'}}>20 September, 2021</span>
+                            <br />
+                            <br />
+                            Notification of Acceptance of Round II : <span style={{opacity:'0.6',color:'white'}}>5 October, 2021</span>
                             <br />
                             <br />
                             Submission of Camera Ready Paper : <span style={{opacity:'0.6',color:'white'}}>30 September, 2021 </span>

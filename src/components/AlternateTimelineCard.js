@@ -9,7 +9,7 @@ const AlternateTimelineCard = ({ name, imgurl, worksAt, title, topic, bio, abstr
             </div>
             <div className="row my-md-2 mt-md-5 my-1 ">
                 <div className="col-md-4 text-center my-2">
-                    <img className="img-fluid border border-dark border-3 my🈹  " src={imgurl ? imgurl : emptyimg} alt="" />
+                    <img className="img-fluid border border-dark border-3 my  " style={{width: "200px"}} src={imgurl ? imgurl : emptyimg} alt="" />
                 </div>
                 <div className="col-md-8 my-2 text-start ">
                     <p>

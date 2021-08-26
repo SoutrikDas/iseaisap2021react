@@ -71,7 +71,7 @@ const CustomTimeline = () => {
     events.map( (event)=>{
         let temp = event.date
         let isLast = events.slice(-1)[0].title == event.title;
-        console.log(`--islast=${isLast}`)
+        // console.log(`--islast=${isLast}`)
         let tempcolor = event.date<today ? "primary" : "";
         if(!event.isTalk)
         {   

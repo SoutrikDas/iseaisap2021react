@@ -1,7 +1,7 @@
 const RegularPapers = () => {
   return (
     <div>
-      <h1 class="display-4 mt-5">Call for Regular Papers</h1>
+      <h1 className="display-4 mt-5">Call for Regular Papers</h1>
       <hr className="mx-5 mb-5" />
 
       <div className="m-2 m-md-5 p-1 p-md-5 shadow bg-body rounded">
@@ -84,7 +84,7 @@ const RegularPapers = () => {
 
           </tbody>
         </table>
-        <a className="btn-danger btn fs-4 rounded-3" href="https://easychair.org/conferences/?conf=iseaisap2021" target="_blank">Submit Papers before 15<sup>th</sup> Aug</a>
+        <a className="btn-danger btn fs-4 rounded-3" href="https://easychair.org/conferences/?conf=iseaisap2021" target="_blank">Submit Papers for Round II before 25<sup>th</sup> Sep</a>
       </div>
     </div>
   );

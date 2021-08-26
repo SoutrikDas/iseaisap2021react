@@ -3,7 +3,7 @@ import './App.css';
 import Footer from './components/Footer';
 
 
-import { HashRouter as Router, Route, Switch } from 'react-router-dom'
+import { HashRouter as Router, Route, Switch, Link } from 'react-router-dom'
 import Navbar from './components/Navbar';
 import Ddaward from './authors/Ddaward';
 import Tutorial from './authors/Tutorial';
@@ -32,6 +32,7 @@ import events from './components/events'
 
 
 
+// let today = new Date(2021,9-1,26)
 let today = new Date()
 
 
@@ -40,7 +41,11 @@ function App() {
     <Router>
       <div className="App">
         <Navbar />
-          {today<=events[1].date ? <Alert/> : <></>}
+          {/* {today<=events[1].date ? <Alert/> : <></>} */}
+          {today<= new Date(2021,9-1,15) ? <div className="alert alert-danger m-0 fs-5 " role="alert">
+        Round I : Paper/Doctoral Dissertation Submission closed, Round II : Paper/Doctoral Dissertation Submission open till  15<sup>th</sup> September. <Link to="/authors/regularpapers" className="">Click Here</Link>
+        </div> : <></>}
+        
         <Switch>
           <Route exact path="/">
             <Header />
