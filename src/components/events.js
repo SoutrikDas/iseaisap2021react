@@ -85,16 +85,48 @@ var events = [
 
     },
     {
-        "name": "Will be Updated Soon",
+        "name": "Pierangela Samarati",
         "isTalk":true,
-        "imgurl": "",
+        "imgurl": "https://homes.di.unimi.it/samarati/Images/samarati_new_small.png",
         "worksAt": "Will be Updated Soon",
         "title": "Keynote 2",
-        "topic": "Will be Updated Soon",
-        "bio" : "Will be Updated Soon",
-        "abstract":"",
+        "topic": "Data security and privacy in emerging scenarios",
+        "bio" : `Pierangela Samarati is a Professor at the Department of Computer
+        Science of the Università degli Studi di Milano, Italy. Her main
+        research interests are on data and applications security and privacy,
+        especially in emerging scenarios.  She has been Computer Scientist at
+        SRI, CA (USA) and visiting researcher at Stanford University, CA
+        (USA), and at George Mason University, VA (USA).  She is the chair of
+        the IEEE Systems Council Technical Committee on Security and Privacy
+        in Complex Information Systems (TCSPCIS), of the ERCIM Security and
+        Trust Management Working Group (STM), and of the ACM Workshop on
+        Privacy in the Electronic Society (WPES). She is ACM Distinguished
+        Scientist (named 2009) and IEEE Fellow (named 2012).  She has received
+        the ESORICS Outstanding Research Award (2018), the IEEE Computer
+        Society Technical Achievement Award (2016), the IFIP WG 11.3
+        Outstanding Research Contributions Award (2012), and the IFIP TC11
+        Kristian Beckman Award (2008).`,
+        "abstract":`The rapid advancements in Information and Communication Technologies
+        (ICTs) have been greatly changing our society, with clear societal and
+        economic benefits. Mobile technology, Cloud, Big Data, Internet of
+        things, services and technologies that are becoming more and more
+        pervasive and conveniently accessible, towards to the realization of a
+        smart society.  At the heart of this evolution is the ability to
+        collect, analyze, process and share an ever-increasing amount of data,
+        to extract knowledge for offering personalized and advanced
+        services. A major concern, and potential obstacle, towards the full
+        realization of such evolution is represented by security and privacy
+        issues. As a matter of fact, the (actual or perceived) loss of control
+        over data and potential compromise of their confidentiality can have a
+        strong detrimental impact on the realization of an open framework for
+        enabling collection, processing, and sharing of data, typically stored
+        or processed by external cloud services. In this talk, I will
+        illustrate some security and privacy issues arising in emerging
+        scenarios, focusing in particular on the problem of managing data
+        while guaranteeing confidentiality and integrity of data stored or
+        processed by external providers.`,
         "date": new Date(2021, 10 - 1, 29),
-        "website":"",
+        "website":"http://www.di.unimi.it/samarati/",
 
     },
     // {

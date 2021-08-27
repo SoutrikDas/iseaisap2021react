@@ -5,7 +5,7 @@ const RegularPapers = () => {
       <hr className="mx-5 mb-5" />
 
       <div className="m-2 m-md-5 p-1 p-md-5 shadow bg-body rounded">
-        <p className="fs-5" style={{textAlign:'justify'}}>Submissions of dissertations are invited from doctoral students who have carried out their research in India, in the area of security. The dissertation should have been submitted between 1- Mar-2016 to 31-Dec-2020. Top three thesis will be awarded prize money of INR 50K, INR 30K, and INR 20K respectively.</p>
+        <p className="fs-5" style={{textAlign:'justify'}}>Submissions of dissertations are invited from doctoral students who have carried out their research in India, in the area of security. The dissertation should have been submitted between 1- Mar-2016 to 31-Dec-2020. Top three thesis will be awarded prize money of INR 25K, INR 15K, and INR 10K respectively.</p>
         <p className="fs-5" style={{textAlign:'justify'}}><a href="https://drive.google.com/file/d/1OfoyNiG1h2BSWrXeksReeFlvKIZbRqKO/view?usp=sharing" target="_blank" rel="noreferrer noopener">ISEA ISAP 2021 Brochure Click here</a></p>
         <p className="fs-5" style={{textAlign:'justify'}}><strong>The organizer invites all IT/Computer Professionals, Researchers, Academicians, and Industry
           People to contribute their original papers on but not limited to the following topics:</strong></p>
