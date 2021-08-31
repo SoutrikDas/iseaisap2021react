@@ -30,6 +30,7 @@ import CustomTimeline from './components/CustomTimeline';
 import Alert from './components/Alert';
 import events from './components/events'
 
+// import './db/conn';
 
 
 // let today = new Date(2021,9-1,26)
@@ -41,12 +42,9 @@ function App() {
     <Router>
       <div className="App">
         <Navbar />
-          {/* {today<=events[1].date ? <Alert/> : <></>} */}
-          {/* {today<= new Date(2021,9-1,15) ? <div className="alert alert-danger m-0 fs-5 " role="alert">
-        Round I : Paper/Doctoral Dissertation Submission closed, Round II : Paper/Doctoral Dissertation Submission open till  15<sup>th</sup> September. <Link to="/authors/regularpapers" className="">Click Here</Link>
-        </div> : <></>} */}
-        {today<= new Date(2021,9-1,15) ? <div className="alert alert-danger m-0 fs-5 " role="alert">
-        Round II : Paper Submission open till  15<sup>th</sup> September. <a href="https://easychair.org/conferences/?conf=iseaisap2021" className="">Click Here</a>
+
+        {/* {today<= new Date(2021,9-1,15) ? <div className="alert alert-danger m-0 fs-5 " role="alert">
+        Paper Submission open till  15<sup>th</sup> September. <a href="https://easychair.org/conferences/?conf=iseaisap2021" className="">Click Here</a>
         </div> : <></>}
         {today <= new Date(2021, 9 - 1, 15) ? (
         <div className="alert alert-danger m-0 fs-5 " role="alert">
@@ -58,7 +56,7 @@ function App() {
         </div>
       ) : (
         <></>
-      )}
+      )} */}
         
         <Switch>
           <Route exact path="/">

@@ -5,6 +5,8 @@ import campus3 from './images/campus3.jfif'
 import { Link } from "react-router-dom";
 import CustomTimeline from './components/CustomTimeline';
 import TopAttraction from './components/TopAttraction';
+import notices from './notice'
+console.log("notice",notices)
 
 const Home = () => {
   return (
@@ -17,7 +19,21 @@ const Home = () => {
             Announcements
           </div>
           <div className = "card-body">
-            <p></p>
+            <ul>
+              {
+                notices.map( (notice) =>{
+                  return(
+                    // <li>
+                      <li className=" my-2 mx-2 mx-md-0 lh-sm fs-5 text-start text-decoration-none">
+                        {notice.isLink ?  <Link className="text-decoration-none" to={notice.url}>{notice.body}</Link> : <a href={notice.url} className="text-decoration-none">{notice.body}</a> }
+                      </li>
+
+                    {/* </li> */}
+                  )
+                })
+              }
+
+            </ul>
           </div>
         </div>
         <div id="carouselExampleIndicators" className="carousel slide my-4 px-md-5 width2" data-bs-ride="carousel">

@@ -5,32 +5,20 @@ var events = [
         "date": new Date(2021,6-1,15),
     },
     {
-        "title":"Round I : Paper Submission Deadline",
-        "date": new Date(2021,8-1,25),
-    },
-    {
         "title":"Round II : Paper Submission Deadline",
         "date": new Date(2021,9-1,15),
     },
     {
-        "title":"Notification of Acceptance of Round I",
-        "date": new Date(2021,9-1,20),
-    },
-    {
-        "title":"Submission of Camera Ready Paper of Round I",
-        "date": new Date(2021,9-1,30),
-    },
-    {
-        "title":"Notification of Acceptance of Round II",
+        "title":"Notification of Acceptance ",
         "date": new Date(2021,10-1,5),
     },
     {
-        "title":"Submission of Camera Ready Paper of Round II",
+        "title":"Submission of Camera Ready Paper ",
         "date": new Date(2021,10-1,15),
     },
     {
         "title":"Author Registration",
-        "date": new Date(2021,10-1,15),
+        "date": new Date(2021,10-1,20),
     },
     {
         "title":"Conference Begins",
