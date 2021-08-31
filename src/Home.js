@@ -11,8 +11,16 @@ const Home = () => {
 
 
     <div>
-      <div className="m-1 m-md-5 p-1 p-md-5 shadow bg-body rounded">
-        <div id="carouselExampleIndicators" className="carousel slide my-4 mx-md-5 px-md-5" data-bs-ride="carousel">
+      <div className="m-1 m-md-5 p-1 p-md-5 shadow bg-body rounded d-flex justify-content-center align-items-center flex-column flex-md-row-reverse">
+        <div style={{height: '400px' }} className="border border-dark width1 card">
+          <div className="card-header bg-dark text-light">
+            Announcements
+          </div>
+          <div className = "card-body">
+            <p></p>
+          </div>
+        </div>
+        <div id="carouselExampleIndicators" className="carousel slide my-4 px-md-5 width2" data-bs-ride="carousel">
           <div className="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to={0} className="active" aria-current="true" aria-label="Slide 1" />
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to={1} aria-label="Slide 2" />
@@ -44,8 +52,8 @@ const Home = () => {
             <hr className="mx-5 mb-5"/> */}
 
 
-        <Link className="btn-primary btn mt-3 " to="/authors/regularpapers" >Check Call for Regular Papers To Submit Papers</Link>
       </div>
+        <Link className="btn-primary btn mt-3 " to="/authors/regularpapers" >Check Call for Regular Papers To Submit Papers</Link>
       <h1 className="display-4 mt-5">Timeline</h1> 
         <hr className="mx-5 mb-5"/>
       <div className=" m-md-5  p-md-5 shadow bg-body rounded">

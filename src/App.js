@@ -42,9 +42,23 @@ function App() {
       <div className="App">
         <Navbar />
           {/* {today<=events[1].date ? <Alert/> : <></>} */}
-          {today<= new Date(2021,9-1,15) ? <div className="alert alert-danger m-0 fs-5 " role="alert">
+          {/* {today<= new Date(2021,9-1,15) ? <div className="alert alert-danger m-0 fs-5 " role="alert">
         Round I : Paper/Doctoral Dissertation Submission closed, Round II : Paper/Doctoral Dissertation Submission open till  15<sup>th</sup> September. <Link to="/authors/regularpapers" className="">Click Here</Link>
+        </div> : <></>} */}
+        {today<= new Date(2021,9-1,15) ? <div className="alert alert-danger m-0 fs-5 " role="alert">
+        Round II : Paper Submission open till  15<sup>th</sup> September. <a href="https://easychair.org/conferences/?conf=iseaisap2021" className="">Click Here</a>
         </div> : <></>}
+        {today <= new Date(2021, 9 - 1, 15) ? (
+        <div className="alert alert-danger m-0 fs-5 " role="alert">
+          Doctoral Dissertation Submission open till 15<sup>th</sup>{" "}
+          September.{" "}
+          <Link to="/authors/ddaward" className="">
+            Click Here
+          </Link>
+        </div>
+      ) : (
+        <></>
+      )}
         
         <Switch>
           <Route exact path="/">

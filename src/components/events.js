@@ -87,8 +87,8 @@ var events = [
     {
         "name": "Pierangela Samarati",
         "isTalk":true,
-        "imgurl": "https://homes.di.unimi.it/samarati/Images/samarati_new_small.png",
-        "worksAt": "Will be Updated Soon",
+        "imgurl": "https://i.ibb.co/M7gcWLb/pierangelasamarati.jpg",
+        "worksAt": "Università degli Studi di Milano, Italy",
         "title": "Keynote 2",
         "topic": "Data security and privacy in emerging scenarios",
         "bio" : `Pierangela Samarati is a Professor at the Department of Computer

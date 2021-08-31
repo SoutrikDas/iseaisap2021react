@@ -109,4 +109,19 @@ height:70vh;
   .small-hidden{
     display: none;
   }
+  .width1{
+    width:100%;
+  }
+  .width2{
+    width:100%;
+  }
+}
+
+@media( min-width: 768px){
+  .width1{
+    width:30%;
+  }
+  .width2{
+    width:70%;
+  }
 }

@@ -1,26 +1,16 @@
+import {  Link } from 'react-router-dom'
+let today = new Date()
+
 const RegularPapers = () => {
   return (
     <div>
+      
       <h1 className="display-4 mt-5">Call for Regular Papers</h1>
       <hr className="mx-5 mb-5" />
 
       <div className="m-2 m-md-5 p-1 p-md-5 shadow bg-body rounded">
         <p className="fs-5" style={{ textAlign: "justify" }}>
-          The 4<sup>th</sup> International Conference on Security and Privacy(ISEA-ISAP2021)
-          is a premier conference focused on Information Security and Privacy.
-          The fourth series of this conference will be hosted by IIT(ISM)
-          Dhanbad. It is sponsored by Information Security and Education
-          Awareness Project-Phase II (ISEA-II), an initiative of Ministry of
-          Electronics and Information Technology, Govt. of India, to promote
-          activities in the field of Information Security and Privacy. The
-          vision of the conference is to provide awareness/promote about the
-          recent advances in the field of information security and privacy,
-          through keynote addresses, tutorials, selected Doctoral dissertation
-          presentation, and pre-reviewed research paper presentations. The
-          conference will also serve as an excellent platform for all the
-          participants to share their views and ideas. In addition, the
-          Conference Proceeding of ISEA-ISAP 2021 is planned to submit for
-          inclusion in the IEEE Xplore. Further, the top three best papers will
+          The Organizer invites all IT/Computer Professionals, Researchers, Academicians, and Industry People to contribute their original papers on but not limitted to the topic in the table below. Further, the top three best papers will
           be recognized with a cash prize money of INR25K, INR15K, and 10K,
           respectively.
         </p>
@@ -33,13 +23,7 @@ const RegularPapers = () => {
             ISEA ISAP 2021 Brochure Click here
           </a>
         </p>
-        <p className="fs-5" style={{ textAlign: "justify" }}>
-          <strong>
-            The organizer invites all IT/Computer Professionals, Researchers,
-            Academicians, and Industry People to contribute their original
-            papers on but not limited to the following topics:
-          </strong>
-        </p>
+        
 
         <table className="table table-responsive table-bordered border-dark table-striped table-hover align-middle my-3">
           <caption className="text-primary my-2">
@@ -162,7 +146,7 @@ const RegularPapers = () => {
           href="https://easychair.org/conferences/?conf=iseaisap2021"
           target="_blank"
         >
-          Submit Papers for Round II before 25<sup>th</sup> Sep
+          Submit Papers for Round II before 15<sup>th</sup> September 2021
         </a>
       </div>
     </div>

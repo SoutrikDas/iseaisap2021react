@@ -33,6 +33,8 @@ const TopAttraction = () => {
                 }))
             }
 
+            <h3>More information coming soon</h3>
+
         </div>
     );
 }
