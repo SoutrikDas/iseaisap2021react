@@ -5,7 +5,7 @@ var events = [
         "date": new Date(2021,6-1,15),
     },
     {
-        "title":"Round II : Paper Submission Deadline",
+        "title":"Paper Submission Deadline",
         "date": new Date(2021,9-1,15),
     },
     {

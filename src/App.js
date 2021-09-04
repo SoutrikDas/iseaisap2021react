@@ -29,6 +29,8 @@ import CustomTimeline from './components/CustomTimeline';
 
 import Alert from './components/Alert';
 import events from './components/events'
+import headerimg from "./images/headerimage.jpeg";
+
 
 // import './db/conn';
 
@@ -60,6 +62,7 @@ function App() {
         
         <Switch>
           <Route exact path="/">
+          <img src={headerimg} alt="" className="" style={{width:'100vw'}} />
             <Header />
             <Home />
           </Route>

@@ -23,12 +23,12 @@ const Home = () => {
               {
                 notices.map( (notice) =>{
                   return(
-                    // <li>
+                    
                       <li className=" my-2 mx-2 mx-md-0 lh-sm fs-5 text-start text-decoration-none">
                         {notice.isLink ?  <Link className="text-decoration-none" to={notice.url}>{notice.body}</Link> : <a href={notice.url} className="text-decoration-none">{notice.body}</a> }
                       </li>
 
-                    {/* </li> */}
+                   
                   )
                 })
               }

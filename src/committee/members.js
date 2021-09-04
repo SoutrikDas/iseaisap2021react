@@ -45,15 +45,15 @@ var advisoryBoard = [
         "worksAt":"Indian Institute of Technology, Madras"
     },
     {
-        "name":"Shri Sanjay Kumar Vyas",
-        "localimg":"",
-        "imgurl":"https://i.ibb.co/6DvFS8G/sanjaykumarvyas.jpg",
-        "worksAt":"Ministry of Electronics and Information Technology (MeitY)"
-    },
-    {
         "name":"Dr. Jaideep Kumar Mishra",
         "localimg":"",
         "imgurl":"https://d12aarmt01l54a.cloudfront.net/cms/images/Media-20201004234216/600-700.png",
+        "worksAt":"Ministry of Electronics and Information Technology (MeitY)"
+    },
+    {
+        "name":"Shri Sanjay Kumar Vyas",
+        "localimg":"",
+        "imgurl":"https://i.ibb.co/6DvFS8G/sanjaykumarvyas.jpg",
         "worksAt":"Ministry of Electronics and Information Technology (MeitY)"
     },
     {

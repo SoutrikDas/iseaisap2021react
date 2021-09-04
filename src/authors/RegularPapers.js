@@ -146,7 +146,7 @@ const RegularPapers = () => {
           href="https://easychair.org/conferences/?conf=iseaisap2021"
           target="_blank"
         >
-          Submit Papers for Round II before 15<sup>th</sup> September 2021
+          Submit Papers before 15<sup>th</sup> September 2021
         </a>
       </div>
     </div>

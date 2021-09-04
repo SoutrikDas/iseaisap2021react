@@ -19,28 +19,17 @@ const Registration = () => {
                     <tbody>
                         <tr>
                             
-                            <td scope="row" className="text-center">Indian Author/Non Author</td>
-                            <td scope="row" className="text-center">INR 6000 + 18% GST<br/>(Total: INR 7080)</td>
-                            <td scope="row" className="text-center">INR 7000 + 18% GST<br/>(Total: INR 8260)</td>
-                        </tr>
-                        <tr>
-                            
-                            <td scope="row" className="text-center">International Author/Non Author</td>
-                            <td scope="row" className="text-center">USD 200 + 18% GST<br/>(Total: USD 236)</td>
-                            <td scope="row" className="text-center">USD 250 + 18% GST<br/>(Total: USD 295)</td>
-                        </tr>
-                        <tr>
-                            
-                            <td scope="row" className="text-center">Indian Student</td>
+                            <td scope="row" className="text-center"> Author/Non Author</td>
                             <td scope="row" className="text-center">INR 3000 + 18% GST<br/>(Total: INR 3540)</td>
                             <td scope="row" className="text-center">INR 4000 + 18% GST<br/>(Total: INR 4720)</td>
                         </tr>
                         <tr>
                             
-                            <td scope="row" className="text-center">International Student</td>
-                            <td scope="row" className="text-center">USD 100 + 18% GST<br/>(Total: USD 118)</td>
-                            <td scope="row" className="text-center">USD 125 + 18% GST<br/>(Total: USD 147.5)</td>
+                            <td scope="row" className="text-center">Student</td>
+                            <td scope="row" className="text-center">INR 1500 + 18% GST<br/>(Total: INR 1770)</td>
+                            <td scope="row" className="text-center">INR 2500 + 18% GST<br/>(Total: INR 2950)</td>
                         </tr>
+                        
                     </tbody>
                 </table>
 
@@ -75,9 +64,7 @@ const Registration = () => {
                     student ID showing name and current status) as well as IEEE membership card (if applicable) during
                     the registration.</li>
 
-                <li className="list-group-item list-group-item-action"> The registration fees include the conference kit,
-                    admission to tutorials/technical sessions, lunch on all conference days, morning and evening
-                    refreshments, and the banquet dinner on the second/third day of the conference.</li>
+                <li className="list-group-item list-group-item-action"> The registration fees include IEEE Xplore publication charges, admission to online tutorials and talks.</li>
 
                 <li className="list-group-item list-group-item-action "> Authors have to complete the
                     registration process before uploading the camera ready paper and e-copyright form as per the

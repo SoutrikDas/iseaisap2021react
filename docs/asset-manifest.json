@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "./static/css/main.b0e29332.chunk.css",
-    "main.js": "./static/js/main.3a91670c.chunk.js",
-    "main.js.map": "./static/js/main.3a91670c.chunk.js.map",
+    "main.js": "./static/js/main.42e468ee.chunk.js",
+    "main.js.map": "./static/js/main.42e468ee.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.40db40e0.js",
     "runtime-main.js.map": "./static/js/runtime-main.40db40e0.js.map",
     "static/css/2.e1e2fe1a.chunk.css": "./static/css/2.e1e2fe1a.chunk.css",
@@ -18,6 +18,7 @@
     "static/media/campus2.8b72b8b2.jfif": "./static/media/campus2.8b72b8b2.jfif",
     "static/media/campus3.44ff13bf.jfif": "./static/media/campus3.44ff13bf.jfif",
     "static/media/chirnajeevkumar.08c154a8.jpg": "./static/media/chirnajeevkumar.08c154a8.jpg",
+    "static/media/headerimage.daf9f80a.jpeg": "./static/media/headerimage.daf9f80a.jpeg",
     "static/media/iitismlogo.4e4b1912.png": "./static/media/iitismlogo.4e4b1912.png"
   },
   "entrypoints": [
@@ -25,6 +26,6 @@
     "static/css/2.e1e2fe1a.chunk.css",
     "static/js/2.5948162a.chunk.js",
     "static/css/main.b0e29332.chunk.css",
-    "static/js/main.3a91670c.chunk.js"
+    "static/js/main.42e468ee.chunk.js"
   ]
 }
