@@ -21,7 +21,7 @@ function Footer() {
                             {/* Round I : Paper Submission Deadline :<span style={{opacity:'0.6',color:'white'}}> 25 August, 2021</span>
                             <br />
                             <br /> */}
-                            Paper Submission Deadline :<span style={{opacity:'0.6',color:'white'}}> 15 September, 2021</span>
+                            Paper Submission Deadline :<span style={{opacity:'0.6',color:'white'}}> 22 September, 2021</span>
                             <br/>
 
                             {/* <br />
@@ -31,16 +31,16 @@ function Footer() {
                             {/* Notification of Acceptance of Round I : <span style={{opacity:'0.6',color:'white'}}>20 September, 2021</span>
                             <br />
                             <br /> */}
-                            Notification of Acceptance : <span style={{opacity:'0.6',color:'white'}}>5 October, 2021</span>
+                            Notification of Acceptance : <span style={{opacity:'0.6',color:'white'}}>10 October, 2021</span>
                             <br />
                             <br />
                             {/* Submission of Camera Ready Paper of Round I : <span style={{opacity:'0.6',color:'white'}}>30 September, 2021 </span>
                             <br />
                             <br /> */}
-                            Submission of Camera Ready Paper : <span style={{opacity:'0.6',color:'white'}}>15 October, 2021 </span>
+                            Submission of Camera Ready Paper : <span style={{opacity:'0.6',color:'white'}}>21 October, 2021 </span>
                             <br />
                             <br />
-                            Author Registration : <span style={{opacity:'0.6',color:'white'}}>20 October, 2021</span>
+                            Author/Participant Registration : <span style={{opacity:'0.6',color:'white'}}>22 October, 2021</span>
                             <br />
                             <br />
                             Conference : <span style={{opacity:'0.6',color:'white'}}>27-30 October, 2021</span>
@@ -63,7 +63,7 @@ function Footer() {
                             Technical Sponsor 
                           </h6>
                           <p >
-                            IEEE kolkata section
+                            IEEE Kolkata section
                           </p>
                           <h6 className="text-uppercase fw-bold my-4" style={{opacity:'0.7',color:'white'}}>
                             Publication 

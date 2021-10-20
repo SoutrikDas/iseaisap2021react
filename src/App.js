@@ -62,7 +62,7 @@ function App() {
         
         <Switch>
           <Route exact path="/">
-          <img src={headerimg} alt="" className="" style={{width:'100vw'}} />
+          {/* <img src={headerimg} alt="" className="" style={{width:'100vw'}} /> */}
             <Header />
             <Home />
           </Route>

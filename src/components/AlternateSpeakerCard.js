@@ -33,7 +33,7 @@ const AlternateSpeakerCard = ({ name, imgurl, worksAt, title, topic, bio, abstra
                 </p> */}
                 {abstract ? <p className="text-justify"><strong>Abstract: </strong> {abstract}</p> : <></>}
                 {bio ? <p className="text-justify"><strong>Speaker bio: </strong> {bio}</p> : <></>}
-                {website ? <p ><strong>Speaker website: </strong><a className="" href={website}>{website}</a></p> : <></>}
+                {website ? <p ><strong>Speaker website: </strong><a className="" href={website} target="_blank">{website}</a></p> : <></>}
                 
 
             </div>

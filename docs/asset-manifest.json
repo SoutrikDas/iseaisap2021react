@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "./static/css/main.b0e29332.chunk.css",
-    "main.js": "./static/js/main.8a7cb5fe.chunk.js",
-    "main.js.map": "./static/js/main.8a7cb5fe.chunk.js.map",
+    "main.css": "./static/css/main.0c39fc5f.chunk.css",
+    "main.js": "./static/js/main.0abb1c5c.chunk.js",
+    "main.js.map": "./static/js/main.0abb1c5c.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.40db40e0.js",
     "runtime-main.js.map": "./static/js/runtime-main.40db40e0.js.map",
     "static/css/2.e1e2fe1a.chunk.css": "./static/css/2.e1e2fe1a.chunk.css",
@@ -10,7 +10,7 @@
     "static/js/2.5948162a.chunk.js.map": "./static/js/2.5948162a.chunk.js.map",
     "index.html": "./index.html",
     "static/css/2.e1e2fe1a.chunk.css.map": "./static/css/2.e1e2fe1a.chunk.css.map",
-    "static/css/main.b0e29332.chunk.css.map": "./static/css/main.b0e29332.chunk.css.map",
+    "static/css/main.0c39fc5f.chunk.css.map": "./static/css/main.0c39fc5f.chunk.css.map",
     "static/js/2.5948162a.chunk.js.LICENSE.txt": "./static/js/2.5948162a.chunk.js.LICENSE.txt",
     "static/media/ISEA_logo.9c622e4a.png": "./static/media/ISEA_logo.9c622e4a.png",
     "static/media/bootstrap-icons.css": "./static/media/bootstrap-icons.dfd0ea12.woff2",
@@ -25,7 +25,7 @@
     "static/js/runtime-main.40db40e0.js",
     "static/css/2.e1e2fe1a.chunk.css",
     "static/js/2.5948162a.chunk.js",
-    "static/css/main.b0e29332.chunk.css",
-    "static/js/main.8a7cb5fe.chunk.js"
+    "static/css/main.0c39fc5f.chunk.css",
+    "static/js/main.0abb1c5c.chunk.js"
   ]
 }

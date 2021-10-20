@@ -11,7 +11,7 @@ const RegularPapers = () => {
       <div className="m-2 m-md-5 p-1 p-md-5 shadow bg-body rounded">
         <p className="fs-5" style={{ textAlign: "justify" }}>
           The Organizer invites all IT/Computer Professionals, Researchers, Academicians, and Industry People to contribute their original papers on but not limitted to the topic in the table below. Further, the top three best papers will
-          be recognized with a cash prize money of INR25K, INR15K, and 10K,
+          be recognized with a cash prize money of <strong>INR 25K</strong>, <strong>INR 15K</strong>, and <strong>INR 10K</strong>,
           respectively.
         </p>
         <p className="fs-5" style={{ textAlign: "justify" }}>
@@ -146,7 +146,7 @@ const RegularPapers = () => {
           href="https://easychair.org/conferences/?conf=iseaisap2021"
           target="_blank"
         >
-          Submit Papers before 15<sup>th</sup> September 2021
+          Submit Papers before 22<sup>nd</sup> September 2021
         </a>
       </div>
     </div>

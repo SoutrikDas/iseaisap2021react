@@ -83,7 +83,7 @@ const Registration = () => {
                 <li class="list-group-item fs-4">IFSC:<strong> CNRB0000986</strong></li>
             </ul>
             <p className="fs-5 text-start ps-3">Please note down the transaction ID and take a snapshot of the transaction completion then fill the registration form given below in the link</p>
-            <p className="text-light bg-primary fs-4 mt-5 p-4 d-inline-block rounded-3">Registration Link Coming Soon</p>
+            <p className="text-light bg-primary fs-4 mt-5 p-3 d-inline-block rounded-3"><a class="text-light" href="https://docs.google.com/forms/d/e/1FAIpQLSffi03TeOa--jkAs_iKYbnU2vn2186Mpoob2bCfO9ZcC20oIA/viewform?usp=sf_link">Registration Form</a></p>
             {/* <p className="text-primary fs-4 mt-5">Registration Link Coming Soon.</p>
             <p className="text-light bg-dark fs-4 mt-5 p-4 d-inline-block">Registration Link Coming Soon. Stay Tuned.</p> */}
 

@@ -29,7 +29,8 @@ var advisoryBoard = [
     {
         "name":"Prof. Sukumar Nandi",
         "localimg":"",
-        "imgurl":"https://www.iitg.ac.in/sukumar/index_body_html_fa8c2a7d0e4f10cb.png",
+        // "imgurl":"https://www.iitg.ac.in/sukumar/index_body_html_fa8c2a7d0e4f10cb.png",
+        "imgurl":"https://iitg.irins.org/assets/profile_images/1282691.jpeg",
         "worksAt":"Indian Institute of Technology, Guwahati"
     },
     {

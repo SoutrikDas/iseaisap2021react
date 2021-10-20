@@ -1,51 +1,51 @@
-
 var events = [
-    {
-        "title":"Opening Call for Paper",
-        "date": new Date(2021,6-1,15),
-    },
-    {
-        "title":"Paper Submission Deadline",
-        "date": new Date(2021,9-1,15),
-    },
-    {
-        "title":"Notification of Acceptance ",
-        "date": new Date(2021,10-1,5),
-    },
-    {
-        "title":"Submission of Camera Ready Paper ",
-        "date": new Date(2021,10-1,15),
-    },
-    {
-        "title":"Author Registration",
-        "date": new Date(2021,10-1,20),
-    },
-    {
-        "title":"Conference Begins",
-        "date": new Date(2021,10-1,27),
-    },
+  {
+    title: "Opening Call for Paper",
+    date: new Date(2021, 6 - 1, 15),
+  },
+  {
+    title: "Paper Submission Deadline",
+    date: new Date(2021, 9 - 1, 22),
+  },
+  {
+    title: "Notification of Acceptance ",
+    date: new Date(2021, 10 - 1, 10),
+  },
+  {
+    title: "Submission of Camera Ready Paper ",
+    date: new Date(2021, 10 - 1, 21),
+  },
+  {
+    title: "Author/Participant Registration",
+    date: new Date(2021, 10 - 1, 22),
+  },
+  {
+    title: "Conference Begins",
+    date: new Date(2021, 10 - 1, 27),
+  },
 
-    {
-        "name": "Keshav Dahal",
-        "isTalk":true,
-        "imgurl": "https://research-portal.uws.ac.uk/files-asset/258789/Keshav_photo.jpg?w=160&f=webp",
-        "worksAt": "University of the West of Scotland (UWS)U.K",
-        "title": "Pre Conference Talk",
-        "topic": "Blockchain Characteristics and its Effect in Business Models",
-        "bio" : "Professor Keshav Dahal is a Professor of intelligent systems and the director of the Artificial Intelligence, Visual Communications and Network (AVCN) Research Centre, University of the West of Scotland, Paisley, U.K. He received his Masters and Ph.D. degrees from the University of Strathclyde, UK. He also worked at the University of Bradford and the University of Strathclyde. His research interests lie in the areas of applied AI, trust and security modelling in distributed systems, Blockchain technology and scheduling/optimization problems. He has been principle investigator or co-investigators on more than 15 externally funded projects, and supervised over 25 PhD and postdoctoral researchers. He has published over 160 papers in his research fields with award winning publications and has sat on organizing/program committees of over 60 international conferences. He is a Senior Member of IEEE.",
-        "abstract":"",
-        "date": new Date(2021, 10 - 1, 27),
-        "website":"https://research-portal.uws.ac.uk/en/persons/keshav-dahal",
-
-    },
-    {
-        "name": "Sushil Jajodia",
-        "isTalk":true,
-        "imgurl": "https://csis.gmu.edu/jajodia/Jajodia.jpg",
-        "worksAt": "George Mason University Fairfax",
-        "title": "Keynote 1",
-        "topic": "Maintaining level of operational effectiveness of a CSOC under adverse conditions",
-        "bio" : `Dr. Sushil Jajodia is University Professor, BDM International Professor, and the founding
+  {
+    name: "Keshav Dahal",
+    isTalk: true,
+    imgurl:
+      "https://research-portal.uws.ac.uk/files-asset/258789/Keshav_photo.jpg?w=160&f=webp",
+    worksAt: "University of the West of Scotland (UWS)U.K",
+    title: "Pre Conference Talk",
+    topic: "Blockchain Characteristics and its Effect in Business Models",
+    bio: "Professor Keshav Dahal is a Professor of intelligent systems and the director of the Artificial Intelligence, Visual Communications and Network (AVCN) Research Centre, University of the West of Scotland, Paisley, U.K. He received his Masters and Ph.D. degrees from the University of Strathclyde, UK. He also worked at the University of Bradford and the University of Strathclyde. His research interests lie in the areas of applied AI, trust and security modelling in distributed systems, Blockchain technology and scheduling/optimization problems. He has been principle investigator or co-investigators on more than 15 externally funded projects, and supervised over 25 PhD and postdoctoral researchers. He has published over 160 papers in his research fields with award winning publications and has sat on organizing/program committees of over 60 international conferences. He is a Senior Member of IEEE.",
+    abstract: "",
+    date: new Date(2021, 10 - 1, 27),
+    website: "https://research-portal.uws.ac.uk/en/persons/keshav-dahal",
+  },
+  {
+    name: "Sushil Jajodia",
+    isTalk: true,
+    imgurl: "https://csis.gmu.edu/jajodia/Jajodia.jpg",
+    worksAt: "George Mason University Fairfax",
+    title: "Keynote I",
+    topic:
+      "Maintaining level of operational effectiveness of a CSOC under adverse conditions",
+    bio: `Dr. Sushil Jajodia is University Professor, BDM International Professor, and the founding
         director of Center for Secure Information Systems in the College of Engineering and Computing
         at the George Mason University, Fairfax, Virginia. He is also the founding director of the NSF
         IUCRC Center for Cybersecurity Analytics and Automation at Mason.  He has an extensive track
@@ -54,7 +54,7 @@ var events = [
         edited 44 books and conference proceedings, and published more than 450 technical papers in
         refereed journals and conference proceedings. He holds several U.S. patents, and has received a
         number of prestigious awards in recognition of his research accomplishments.`,
-        "abstract":`In a cybersecurity operations center (CSOC), under normal operating conditions
+    abstract: `In a cybersecurity operations center (CSOC), under normal operating conditions
         in a day, sufficient numbers of analysts are available to analyze the amount of
         alert workload generated by intrusion detection systems (IDSs). This means
         that the cybersecurity analysts can fully investigate each and every alert that is
@@ -68,18 +68,32 @@ var events = [
         talk, I will describe how this can be quantified, monitored by knowing the exact
         deviation of the CSOC conditions from normal, and how long it takes for the
         condition to return to normal.`,
-        "date": new Date(2021, 10 - 1, 28),
-        "website":"https://csis.gmu.edu/jajodia",
+    date: new Date(2021, 10 - 1, 28),
+    website: "https://csis.gmu.edu/jajodia",
+  },
+  {
+    name: "Dr C. Mohan",
+    isTalk: true,
+    imgurl: "https://i.ibb.co/LPKBRbD/image.png",
+    worksAt: "Tsinghua University, China",
+    title: "Keynote II",
+    topic:
+      "State of Permissionless and Permissioned Blockchains:Myths and Reality",
+    abstract: `Since the concept of blockchain was invented as the underlying core data structure of the permissionless/public Bitcoin cryptocurrency network, several cryptocurrencies, and associated concepts like tokens and ICOs emerged. After much speculation and hype, significant number of them have become problematic or worthless, even though some countries have embraced them! The public blockchain system Ethereum emerged by generalizing the use of blockchains to manage any kind of asset, be it physical or purely digital, with the introduction of the concept of Smart Contracts. Over the years, numerous myths have developed with respect to the purported utility and the need for permissionless blockchains. The adoption and further adaptation of blockchains and smart contracts for use in the permissioned/private environments is what I consider to be useful and of practical consequence. Hence, only private blockchain systems will be the focus of my talk. 
 
-    },
-    {
-        "name": "Pierangela Samarati",
-        "isTalk":true,
-        "imgurl": "https://i.ibb.co/M7gcWLb/pierangelasamarati.jpg",
-        "worksAt": "Università degli Studi di Milano, Italy",
-        "title": "Keynote 2",
-        "topic": "Data security and privacy in emerging scenarios",
-        "bio" : `Pierangela Samarati is a Professor at the Department of Computer
+    IT companies like IBM, Intel, SAP, Huawei, Oracle, Baidu and AWS, and many key players in different vertical industry segments (e.g., Ant Financial) have recognized the applicability of blockchains in environments other than cryptocurrencies. There is a great deal of momentum behind Hyperledger Fabric throughout the world. Other private blockchain systems include Quorum, Hyperledger Sawtooth and R3 Corda. In this talk, I will describe some use-case scenarios, especially those in production deployment. I will also survey the landscape of private blockchain systems with respect to their architectures in general and their approaches to some specific technical areas. Along the way, I will bust many myths associated with permissionless blockchains. I will also compare traditional database technologies with blockchain systems’ features and identify desirable future research topics. This is a highly revised version of a keynote delivered at ACM SIGMOD International Conference on Management of Data in Amsterdam in July 2019. The associated keynote paper is at http://bit.ly/sigBcP`,
+    bio: `Dr. C. Mohan is currently a Distinguished Visiting Professor at Tsinghua University in China, and an Advisor of the Kerala Blockchain Academy (KBA) and the Tamil Nadu e-Governance Agency (TNeGA) in India. He retired in June 2020 from being an IBM Fellow at the IBM Almaden Research Center in Silicon Valley. He was an IBM researcher for 38.5 years in the database, blockchain, AI and related areas, impacting numerous IBM and non-IBM products, the research and academic communities, and standards, especially with his invention of the well-known ARIES family of database locking and recovery algorithms, and the Presumed Abort distributed commit protocol. This IBM (1997-2020), ACM (2002) and IEEE (2002) Fellow has also served as the IBM India Chief Scientist (2006-2009). In addition to receiving the ACM SIGMOD Edgar F. Codd Innovations Award (1996), the VLDB 10 Year Best Paper Award (1999) and numerous IBM awards, Mohan was elected to the US and Indian National Academies of Engineering (2009) and named an IBM Master Inventor (1997). This Distinguished Alumnus of IIT Madras (1977) received his PhD at the University of Texas at Austin (1981). He is an inventor of 50 patents. During the last many years, he focused on Blockchain, AI, Big Data and HTAP technologies (http://bit.ly/sigBcP, http://bit.ly/CMgMDS). Since 2017, he has been an evangelist of permissioned blockchains and the myth buster of permissionless blockchains. During 1H2021, Mohan was the Shaw Visiting Professor at the National University of Singapore where he taught a seminar course on distributed data and computing. In late 2019, he became an Honorary Advisor to TNeGA for its blockchain and other projects. In August 2020, he joined the Advisory Board of KBA of India. Since 2016, Mohan has been a Distinguished Visiting Professor of China’s prestigious Tsinghua University. He has served on the advisory board of IEEE Spectrum, and on numerous conference and journal boards. He has also been a Consultant to the Microsoft Data Team. Mohan is a frequent speaker in North America, Europe and Asia. He has given talks in 43 countries. He is highly active on social media and has a huge network of followers. More information can be found in the Wikipedia page at http://bit.ly/CMwIkP and his resume at http://bit.ly/CMoNUS`,
+    date: new Date(2021, 10 - 1, 28),
+    website: "https://www.comp.nus.edu.sg/~cmohan/",
+  },
+  {
+    name: "Pierangela Samarati",
+    isTalk: true,
+    imgurl: "https://i.ibb.co/M7gcWLb/pierangelasamarati.jpg",
+    worksAt: "Università degli Studi di Milano, Italy",
+    title: "Keynote III",
+    topic: "Data security and privacy in emerging scenarios",
+    bio: `Pierangela Samarati is a Professor at the Department of Computer
         Science of the Università degli Studi di Milano, Italy. Her main
         research interests are on data and applications security and privacy,
         especially in emerging scenarios.  She has been Computer Scientist at
@@ -94,7 +108,7 @@ var events = [
         Society Technical Achievement Award (2016), the IFIP WG 11.3
         Outstanding Research Contributions Award (2012), and the IFIP TC11
         Kristian Beckman Award (2008).`,
-        "abstract":`The rapid advancements in Information and Communication Technologies
+    abstract: `The rapid advancements in Information and Communication Technologies
         (ICTs) have been greatly changing our society, with clear societal and
         economic benefits. Mobile technology, Cloud, Big Data, Internet of
         things, services and technologies that are becoming more and more
@@ -113,29 +127,158 @@ var events = [
         scenarios, focusing in particular on the problem of managing data
         while guaranteeing confidentiality and integrity of data stored or
         processed by external providers.`,
-        "date": new Date(2021, 10 - 1, 29),
-        "website":"http://www.di.unimi.it/samarati/",
+    date: new Date(2021, 10 - 1, 29),
+    website: "http://www.di.unimi.it/samarati/",
+  },
+  {
+    name: "Mohammad S. Obaidat",
+    isTalk: true,
+    imgurl: "https://i.ibb.co/nBp6TNH/image.png",
+    worksAt: "College of Computing and Informatics, University of Sharjah, UAE",
+    title: "Keynote IV",
+    topic: "Novel Biometric Techniques for Risk-Based Authentication",
+    bio: `Professor Mohammad S. Obaidat (Fellow of IEEE and Fellow of SCS) is an internationally known academic/researcher/scientist/ scholar. He received his Ph.D. degree in Computer Engineering with a minor in Computer Science from The Ohio State University, Columbus, USA. He has received extensive research funding and published To Date about One Thousand and Two Hundreds (1,200) refereed technical articles-About half of them are journal articles, over 95 books, and about 70 Book Chapters. He is Editor-in-Chief of 3 scholarly journals and an editor of many other international journals.  He is the founding Editor-in Chief of Wiley Security and Privacy Journal.  Moreover, he is founder or co-founder of 5 International Conferences. 
+        Among his previous positions are Advisor to the President of Philadelphia University for Research, Development and Information Technology, President and Chair of Board of Directors of the Society for Molding and Simulation International, SCS, Senior Vice President of SCS, Dean of the College of Engineering at Prince Sultan University, Chair and tenured Professor at the Department of Computer and Information Science and Director of the MS Graduate Program in Data Analytics at Fordham university, Chair and tenured Professor of the Department of Computer Science and Director of the Graduate Program at Monmouth University, Tenured Full Professor at King Abdullah II School of Information Technology, University of Jordan, Founding Dean and Professor,  College of Computing and Informatics at The University of Sharjah, UAE. He is also The PR of China Ministry of Education Distinguished Overseas Professor at the University of Science and Technology Beijing, China and an Honorary Distinguished Professor at the Amity University- A Global University. He is now the Founding Dean and Professor,  College of Computing and Informatics at The University of Sharjah, UAE.
+        He has chaired numerous (Over 175) international conferences and has given numerous (Over 175) keynote speeches worldwide. He has served as ABET/CSAB evaluator and on IEEE CS Fellow Evaluation Committee. He has served as IEEE CS Distinguished Speaker/Lecturer and an ACM Distinguished Lecturer. Since 2004 has been serving as an SCS Distinguished Lecturer. He received many best paper awards for his papers including ones from IEEE ICC, IEEE Globecom, AICSA, CITS, SPECTS, DCNET International conferences. He also received Best Paper awards from IEEE Systems Journal in 2018 and in 2019 (2 Best Paper Awards). In 2020, he received 4 best paper awards from IEEE Systems Journal. In 2021, he also received the IEEE Systems best paper award. In 2021, he was ranked by Guide2Research as Number 1 Computer Scientist in UAE in terms of Number of Publications.
+        He also received many other worldwide awards for his technical contributions including: The 2018 IEEE ComSoc-Technical Committee on Communications Software Technical Achievement Award for contribution to Cybersecurity, Wireless Networks Computer Networks and Modeling and Simulation, SCS prestigious McLeod Founder's Award , Presidential Service Award, SCS Hall of Fame –Lifetime Achievement Award for his technical contribution to modeling and simulation and for his outstanding visionary leadership and dedication to increasing the effectiveness and broadening the applications of modeling and simulation worldwide. He also received the SCS Outstanding Service Award. He was awarded the IEEE CITS Hall of Fame Distinguished and Eminent Award.  A book is being published by a worldwide publisher in honor of his Significant Scientific contributions. 
+        He is a Fellow of IEEE and a Fellow of SCS.
+        `,
+    abstract: `Existing risk-based authentication systems rely on basic web communication information such as the source IP address or the velocity of transactions performed by a specific account, or originating from a certain IP address. Such information can easily be spoofed, and as such, put in question the robustness and reliability of the proposed systems.
+        Risk-based authentication can be applied from two different perspectives: proactively and reactively. When applied proactively, risk-based authentication can be integrated with the login process and used to block from the beginning access to users flagged as risky. In contrast, reactive risk-based authentication can be used to identify and revert ongoing or completed transactions considered as risky. 
+        Although proactive risk-based authentication may be considered as more desirable than reactive risk-based authentication, the cost of a misclassification error is far greater in the former than in the latter. In other words, more stringent accuracy requirements underlie proactive approaches compared to reactive ones. Actually, each category is adequate for specific scenarios. While proactive risk based authentication is important in situations where confidentiality is essential such as in military or intelligence transactions, reactive risk-based authentication may be enough in situations where integrity is the primary concern. For instance, in online banking transactions, malicious transactions can be reverted (immediately) by the end of the session if the user is classified as risky.
+        
+        In this talk, we present our biometrics-based security schemes that are based on keystroke dynamics, which are considered breakthrough techniques. We them introduce our new online biometric risk-based authentication system that provides more robust user identity information by combining mouse dynamics and keystroke dynamics biometrics in a multimodal framework. Experimental evaluation of our proposed model with 24 participants yields an Equal Error Rate of 8.21%, which is promising considering that we are dealing with free text and free mouse movements, and the fact that many web sessions tend to be very short. Moreover, we believe this performance is good for reactive risk-based authentication, where the goal is not to prevent the user from using the system, but rather to identify malicious sessions and trigger appropriate risk mitigation measures.
+        `,
+    date: new Date(2021, 10 - 1, 29),
+    website: "www.theobaidat.com",
+  },
+  {
+    name:"Dr. Sandip Chakraborty",
+    isTalk: true, 
+    imgurl : "https://i.ibb.co/wBfbqvF/unnamed.jpg",
+    worksAt: "Indian Institute of Technology Kharagpur",
+    title: "Tutorial I",
+    topic : "Blockchain Interoperability: Interconnecting Blockchain Applications in Silo",
+    abstract: `Blockchain technology has been adopted for various enterprise use cases ranging from provenance tracking, supply chain management, trade logistics, to trade finance, know your customer (KYC) information management, and more. However, there has been a trend in the deployment of these consortium blockchain networks for very specific use cases, such as for a trade logistics network involving carriers handling the shipping of goods, and buyers, and sellers. These networks are like isolated silos with no interaction with other existing blockchain networks. But, such isolation is limiting huge business benefits which can be unlocked by enabling interoperability between these otherwise walled networks. One such use case of blockchain interoperability is connecting trade finance networks with trade logistics networks, where a combined business workflow is the transfer of letter of credit and the corresponding bill of lading between the banks in the finance network to the carriers in logistics network. Based on these cross-blockchain document transfers, trade financing is possible in the logistics network, while maintaining the benefits of decentralization of the two separate blockchains. Similarly, blockchain interoperability for cross-blockchain asset transfer and data transfer will have a wide range of applications in the enterprise blockchain space. This tutorial will cover the basics of blockchain interoperability with a focus on its various application spaces. `,
+    bio : `Dr. Sandip Chakraborty is working as an Associate Professor in the Department of Computer Science and Engineering at the Indian Institute of Technology (IIT) Kharagpur. He obtained his Bachelor of Engineering (BE) degree from Jadavpur University, Kolkata in 2009 and Master of Technology (M Tech) and Doctor of Philosophy (Ph.D.), both from IIT Guwahati, in 2011 and 2014, respectively. The primary research interests of Dr. Chakraborty are on various aspects of computer systems and networks, the development of assistive technologies for societal well-being, and the design of distributed, pervasive, and ubiquitous technologies over mobile devices and smartphones.
 
-    },
-    // {
-    //     "title": "Keynote 2",
-    //     "isTalk":true,
-    //     "date": new Date(2021,10-1,29,9,30),
-    //     "name" : "Rami Puzis",
-    //     "desc" : "Mastering the Social Networks",
-    //     "imgurl":"" 
-    // },
-    // {
-    //     "title": "Keynote 3",
-    //     "isTalk":true,
-    //     "date": new Date(2021,10-1,29,14,30),
-    //     "name" : "Rajeev Barua",
-    //     "desc" : " Malware Analysis: Beating the Bad Guys",
-    //     "imgurl":"" 
-    // },
-    {
-        "title":"Conference Ends",
-        "date": new Date(2021,10-1,30),
-    },
-]
-export  default events;
+    Dr. Chakraborty is leading the System and Mobile Research Lab at IIT Kharagpur, focusing on various aspects of computer systems and networks along with the design and development of ubiquitous and pervasive sensing systems. He is leading multiple high-valued projects, sponsored by the GoI as well as various industries like Intel, HPE, TCS, and BEL. Dr. Chakraborty has published ~100 conference papers and ~45 journal papers till now at top-tier venues like IEEE INFOCOM, IEEE PerCom, ACM RecSys, ACM MobileHCI, WWW, IFIP Networking, IEEE ICNP, IEEE LCN, ACM SIGSPATIAL (all these are ranked as A*/A as per Core conference ranking) and various IEEE Transactions including IEEE Transactions on Mobile Computing, IEEE Transactions on Wireless Communications, IEEE Transactions on Network and Service Management, etc..
+    
+    Dr. Chakraborty is an active member of the COMSNETS Association, India, IEEE COMSOC, ACM SIGCOMM, and ACM SIGMOBILE. He is one of the founding members of ACM IMOBILE, the ACM SIGMOBILE chapter in India. He is working as an Area Editor of Elsevier Ad Hoc Networks journal and Elsevier Pervasive and Mobile Computing journal. He has received various awards and accolades including INAE Young Engineers’ Award, Fellow of National Internet Exchange of India (NIXI), and so on. Dr. Chakraborty has been actively involved in organizing various conferences including IEEE PerCom (as Publication Chair), IEEE/ACM COMSNETS (as TPC Chair), IEEE ANTS (as TPC Chair), IEEE ICBC (as Publicity Chair), IEEE LCN (as TPC member), IEEE PerCom (as TPC member), etc., to name a few. Further details about his works and publications can be obtained from https://cse.iitkgp.ac.in/~sandipc/index.html. 
+    `,
+    date: new Date(2021, 10 - 1, 29),
+    website: "http://cse.iitkgp.ac.in/~sandipc/",
+
+  },
+  
+  {
+    name: "Vyas Sekar",
+    isTalk: true,
+    imgurl: "https://i.ibb.co/XtHtpq2/vyas.jpg",
+    worksAt: "Carnegie Mellon University",
+    title: "Tutorial II",
+    topic: "Network Security",
+    bio: `Vyas Sekar is the Tan Family Chair Professor in the Electrical and Computer
+        Engineering  Department at Carnegie Mellon University. His research is broadly in the area of networking, security, and systems,  Vyas received a B.Tech from
+        the Indian Institute of Technology, Madras where he was awarded the President
+        of India Gold Medal, and a Ph.D from Carnegie Mellon University. He is the
+        recipient of the NSF CAREER award and the ACM SIGCOMM Rising Star Award. His
+        work has received best paper awards at ACM Sigcomm, ACM CoNext, and ACM
+        Multimedia, the NSA Science of Security prize, the CSAW Applied Security
+        Research Prize, and the Applied Networking Research Prize.  He has served on
+        organizing committees of many conferences,  workshops, mentoring events, and
+        award panels in both the computer networking and security communities.
+
+        
+        `,
+    abstract: `Today, security breaches and downtime of critical infrastructures continue to be the
+    norm rather than the exception, despite the dramatic rise in spending on
+    network security. Attackers today can easily leverage a distributed and
+    programmable infrastructure of compromised machines (or botnets) to launch
+    large-scale and sophisticated attacks. In contrast, the defenders of our
+    critical infrastructures are crippled as they rely on fixed capacity,
+    inflexible, and expensive hardware appliances. This forces them into adopting
+    weak and static security postures, as they face unpleasant tradeoffs between
+    false positives and false negatives. Continuing along this trajectory means
+    that attackers will always hold the upper hand as defenders are stifled by the
+    inflexible and ineffective tools in their arsenal.
+    
+    
+    Programmable networks offer a glimmer of hope to potentially  
+    reverse this long-standing asymmetry and fundamentally change the dynamics of
+    this attack- defense equation. Instead of developing attack-specific defenses,
+    we can focus on empowering defenders with the right tools and abstractions to
+    tackle the constantly evolving attack landscape. Such a  
+    software-defined approach to network security can enable the development and
+    deployment of novel in-depth defenses and dynamically customize the network’s security
+    posture to the current operating context. Realizing this vision raises
+    fundamental challenges that transcend conventional networking and security
+    technologies and necessitates a radical rethink across the entire “stack”.
+    
+        `,
+    date: new Date(2021, 10 - 1, 29),
+    website: "https://www.cylab.cmu.edu/directory/bios/sekar-vyas.html",
+  },
+  {
+    name: "Rama Vedashree",
+    isTalk: true,
+    imgurl: "https://i.ibb.co/VYnmkTx/Rama-Vedashree.jpg",
+    worksAt: "CEO of Data Security Council of India.",
+    title: "Industrial Talk I",
+    topic:
+      "Cybersecurity & Privacy - Strategic pillar for a growing Digital Economy",
+    abstract: ` This talk will be covering the topics Cyber Security and Privacy Regulations, Cyber Security Industry Snapshot, Cyber Security Innovation Ecosystem and Deep Dive into Cyber Security Product and Startups Landscape.`,
+    bio: `Ms. Rama Vedashree is the CEO of Data Security Council of India.
+    DSCI under her leadership is pursuing a Cyber Security Industry growth charter to make India into a
+    global hub for cyber security and grow to 35B$ by 2025.
+    Prior to moving to DSCI she was Vice President, NASSCOM leading all initiatives in Domestic IT,
+    eGovernance and Smart Cities among others. At NASSCOM, she has also led the Healthcare initiative
+    in partnership with apex Health Sector body, NATHEALTH and the NASSCOM-DSCI Cyber Security Task
+    Force. With a rich and varied experience of 30+ years in the Industry, she has had long stints at NIIT
+    Technologies, Microsoft and General Electric.
+    
+    `,
+    date: new Date(2021, 10 - 1, 28),
+    website: "https://www.linkedin.com/in/rama-vedashree-32178153/",
+  },
+  {
+    name: "Vijit Prabhu",
+    isTalk: true,
+    imgurl: "https://i.ibb.co/YNHBzj5/Vijit-Photograpgh.jpg",
+    worksAt: "Microsoft, Noida",
+    title: "Industrial Talk II",
+    topic:
+      "Data Life Cycle and its Security & Privacy",
+    abstract: ` In this era of digital revolution, the boundaries between the digital and physical world are continuously blurring with data being the new fuel for growth and development. The data fueled digital transformation has also resulted in ever increasing instances of data breaches, exposure of personal information and data misuse. It is important to understand that data security and privacy is not confined to data breach issues. Like any other digital product, data too has a life cycle, from creation to disposal. Privacy and security consideration must be an integral part of each phase of the data life cycle.
+
+    This talk will cover how acting on best data governance practices in relation to the data life cycle can help stay organized and focused on how data is handled, how data privacy and security should be a priority for all, throughout the data life cycle. We will also explore the impact of various data regulations on the tech industry and the need for balance between privacy and digital innovation.`,
+    bio: `Vijit Prabhu is a Senior Data Scientist with Microsoft. He has been working in the tech industry for over a decade with rich experiences in implementing large scale ML\AI solutions for big data and real-world problems. He currently works with Outlook data team with focus on understanding user behavior. Earlier he worked at the Microsoft's Artificial Intelligence and Research (AI&R) Org with focus on Microsoft’s Bing search engine. Prior to Microsoft, he worked as a Scientist with Defence Research and Development Organization (DRDO), Government of India in the areas of secure and reliable communication.
+
+    Vijit earned his Bachelor of Technology (B.Tech) degree in Computer Science and Engineering from Indian Institute of Technology, Dhanbad (formerly known as ISM Dhanbad). He has published several papers\ articles in various conferences, journals, tech blogs etc. He is recipient of several awards including the ISM Gold Medal and Innovation Excellence Award, Search Technology Center, Microsoft India. His areas of interest include Machine Learning and Artificial Intelligence, Deep Neural Nets and Big Data.
+    
+    `,
+    date: new Date(2021, 10 - 1, 28),
+    website: "https://www.linkedin.com/in/prabhuvijit/",
+  },
+  // {
+  //     "title": "Keynote 2",
+  //     "isTalk":true,
+  //     "date": new Date(2021,10-1,29,9,30),
+  //     "name" : "Rami Puzis",
+  //     "desc" : "Mastering the Social Networks",
+  //     "imgurl":""
+  // },
+  // {
+  //     "title": "Keynote 3",
+  //     "isTalk":true,
+  //     "date": new Date(2021,10-1,29,14,30),
+  //     "name" : "Rajeev Barua",
+  //     "desc" : " Malware Analysis: Beating the Bad Guys",
+  //     "imgurl":""
+  // },
+  {
+    title: "Conference Ends",
+    date: new Date(2021, 10 - 1, 30),
+  },
+];
+export default events;

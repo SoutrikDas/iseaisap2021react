@@ -4,11 +4,11 @@ const Conference = () => {
             <div className="m-1 m-md-5 p-1 p-md-5 shadow bg-body rounded">
                 <h1  className="display-4 px-2 mt-4 mb-5">About the Institute</h1>
                 <div className="d-flex flex-column flex-lg-row-reverse align-items-my-4">
-                    <div className="flex-shrink-0 px-4">
+                    <div className="flex-shrink-0 px-4 pt-md-3">
                         {/* style="max-width:30rem" */}
                         <img src="https://alumni.iitism.ac.in/assets/images/Home/index-01.jpg" className="img-fluid w-100"  style={{maxWidth:'30rem',}} alt="..."/>
                     </div>
-                    <div className="flex-grow-1 px-2 pt-4">
+                    <div className="flex-grow-1 px-2 pt-4 pt-md-0">
                         {/* style="text-align:justify" */}
                         <p style={{textAlign:'justify'}}>Indian Institute of Technology (Indian School of Mines), Dhanbad is one of
                         India&#39;s premier
@@ -42,8 +42,7 @@ const Conference = () => {
                     International Societies. They are instrumental in research and development activities. The
                     primary research areas include Information Security, Network Security, Multimedia Security,
                     Machine Learning, Soft Computing, Data Mining, Cloud Computing, Bioinformatics, Wireless
-                    Networks, Software Engineering, Image Processing, etc. Please visit
-                    <a href="https://www.iitism.ac.in/index.php/Departments/dept_cse" target="_blank" rel="noopener noreferrer"> iitism.ac.in/index.php/computer_science</a> for more details.</p>
+                    Networks, Software Engineering, Image Processing, etc. Please visit <a href="https://www.iitism.ac.in/index.php/Departments/dept_cse" target="_blank" rel="noopener noreferrer">iitism.ac.in/index.php/computer_science</a> for more details.</p>
                 </div>
                 </div>  
             </div>

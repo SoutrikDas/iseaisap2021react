@@ -18,24 +18,27 @@ const Home = () => {
           <div className="card-header bg-dark text-light">
             Announcements
           </div>
-          <div className = "card-body">
-            <ul>
-              {
-                notices.map( (notice) =>{
-                  return(
+          <div className="scroller">
+
+            <div className = "card-body">
+              <ul>
+                {
+                  notices.map( (notice) =>{
+                    return(
+                      
+                        <li className=" my-2 mx-2 mx-md-0 lh-sm fs-5 text-start text-decoration-none">
+                          {notice.isLink ?  <Link className="text-decoration-none" to={notice.url}>{notice.body}</Link> : <a href={notice.url} className="text-decoration-none">{notice.body}</a> }
+                        </li>
+
                     
-                      <li className=" my-2 mx-2 mx-md-0 lh-sm fs-5 text-start text-decoration-none">
-                        {notice.isLink ?  <Link className="text-decoration-none" to={notice.url}>{notice.body}</Link> : <a href={notice.url} className="text-decoration-none">{notice.body}</a> }
-                      </li>
+                    )
+                  })
+                }
 
-                   
-                  )
-                })
-              }
-
-            </ul>
+              </ul>
+            </div>
           </div>
-        </div>
+          </div>
         <div id="carouselExampleIndicators" className="carousel slide my-4 px-md-5 width2" data-bs-ride="carousel">
           <div className="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to={0} className="active" aria-current="true" aria-label="Slide 1" />
@@ -69,7 +72,7 @@ const Home = () => {
 
 
       </div>
-        <Link className="btn-primary btn mt-3 " to="/authors/regularpapers" >Check Call for Regular Papers To Submit Papers</Link>
+        
       <h1 className="display-4 mt-5">Timeline</h1> 
         <hr className="mx-5 mb-5"/>
       <div className=" m-md-5  p-md-5 shadow bg-body rounded">

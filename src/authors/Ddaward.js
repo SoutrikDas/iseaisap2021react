@@ -21,7 +21,7 @@ const Ddaward = () => {
           href="mailto:isea-isap2021@iitism.ac.in"
           target="_blank"
         >
-          Submit Doctoral Dissertations before 15<sup>th</sup> September 2021 through e-mail
+          Submit Doctoral Dissertations before 22<sup>nd</sup> September 2021 through e-mail
         </a>
       </div>
     </>
